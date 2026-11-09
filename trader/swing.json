@@ -1,13 +1,13 @@
 {
   "budget_eur": 100.0,
   "fee_eur": 1.0,
-  "max_loss_eur": 5.0,
-  "max_position_pct": 50,
+  "max_loss_eur": 10.0,
+  "max_position_pct": 100,
   "min_position_eur": 10.0,
-  "max_open_positions": 2,
-  "stop_atr": 2.0,
-  "target_r": 3.0,
-  "max_hold_days": 20,
+  "max_open_positions": 1,
+  "stop_atr": 3.0,
+  "target_r": 2.0,
+  "max_hold_days": 60,
   "min_net_gain_fee_multiple": 2.0,
   "min_net_reward_risk": 1.0,
   "setups": [
@@ -22,5 +22,5 @@
   "min_history_trades": 3,
   "benchmark": "EUNL.DE",
   "fx": "EURUSD=X",
-  "_hinweis": "Ergaenzte Swing-Regel (nicht aus day-trader-skill). Betraege in EUR. Gebuehr pro Order 1 EUR."
+  "_hinweis": "Ergaenzte Swing-Regel (nicht aus day-trader-skill), Variante A vom 2026-11-09: beste von 7 getesteten Varianten im 2-Jahres-Backtest (+10,9 % vs. ETF +18,3 %), schlaegt den ETF NICHT. Nur Papierhandel. Betraege in EUR, 1 EUR pro Order."
 }

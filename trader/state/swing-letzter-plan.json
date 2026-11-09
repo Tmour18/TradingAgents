@@ -1,43 +1,43 @@
 {
   "datum": "2026-11-09",
-  "fx": 1.1223344802856445,
+  "fx": 1.1225864887237549,
   "kandidaten": [
     {
       "symbol": "INTC",
-      "name": "",
+      "name": "Intel Corporation - Common Stock",
       "setup": "oversold_bounce",
       "alle_setups": [
         "oversold",
         "oversold_bounce"
       ],
-      "datum": "2026-11-06",
-      "einstieg": 56.28,
-      "stop": 43.26,
-      "ziel": 95.34,
-      "atr": 6.51,
+      "datum": "2026-11-09",
+      "einstieg": 59.37,
+      "stop": 40.01,
+      "ziel": 98.09,
+      "atr": 6.45,
       "historie": {
         "n": 2,
-        "gewinner": 1,
-        "trefferquote": 0.5,
+        "gewinner": 2,
+        "trefferquote": 1.0,
         "ziel": 1,
         "stop": 0,
         "zeit": 1,
-        "summe_eur": 6.27,
-        "schnitt_eur": 3.14,
+        "summe_eur": 16.94,
+        "schnitt_eur": 8.47,
         "von": "2024-11-11",
-        "bis": "2026-11-06"
+        "bis": "2026-11-09"
       },
-      "rsi": 25.6,
-      "betrag_eur": 12.0,
+      "rsi": 29.4,
+      "betrag_eur": 24.0,
       "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.23134326691006266,
-      "ziel_pct": 0.6940298874894737,
-      "verlust_am_stop_eur": 4.78,
-      "gewinn_am_ziel_eur": 6.33,
+      "stop_pct": 0.3260906060331331,
+      "ziel_pct": 0.6521812660387398,
+      "verlust_am_stop_eur": 9.83,
+      "gewinn_am_ziel_eur": 13.65,
       "gebuehren_eur": 2.0,
       "risk": "PASS",
       "risk_warnungen": [
-        "the stop 43.26 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+        "the stop 40.01 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
       ],
       "news": [
         {
@@ -88,45 +88,56 @@
         "earnings_8k": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm",
         "bericht": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm"
       },
-      "naechste_zahlen_schaetzung": "2027-01-28"
+      "naechste_zahlen_schaetzung": "2027-01-28",
+      "warnungen": [
+        "Naechste Quartalszahlen voraussichtlich um 2027-01-28 (Schaetzung: letzte am 2026-10-29 + 91 Tage) -- liegt in der Haltedauer, Kursluecke moeglich"
+      ]
     },
     {
-      "symbol": "NVDA",
-      "name": "",
+      "symbol": "CSCO",
+      "name": "Cisco Systems, Inc. - Common Stock",
       "setup": "oversold_bounce",
       "alle_setups": [
         "oversold_bounce"
       ],
-      "datum": "2026-11-06",
-      "einstieg": 186.64,
-      "stop": 170.6,
-      "ziel": 234.76,
-      "atr": 8.02,
+      "datum": "2026-11-09",
+      "einstieg": 98.65,
+      "stop": 87.22,
+      "ziel": 121.51,
+      "atr": 3.81,
       "historie": {
         "n": 1,
-        "gewinner": 0,
-        "trefferquote": 0.0,
+        "gewinner": 1,
+        "trefferquote": 1.0,
         "ziel": 0,
         "stop": 0,
         "zeit": 1,
-        "summe_eur": -0.53,
-        "schnitt_eur": -0.53,
+        "summe_eur": 8.15,
+        "schnitt_eur": 8.15,
         "von": "2024-11-11",
-        "bis": "2026-11-06"
+        "bis": "2026-11-09"
       },
-      "rsi": 30.6,
-      "betrag_eur": 34.0,
+      "rsi": 38.2,
+      "betrag_eur": 69.0,
       "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.08594084570350714,
-      "ziel_pct": 0.2578225501913521,
-      "verlust_am_stop_eur": 4.92,
-      "gewinn_am_ziel_eur": 6.77,
+      "stop_pct": 0.11586417991975874,
+      "ziel_pct": 0.23172831343671316,
+      "verlust_am_stop_eur": 9.99,
+      "gewinn_am_ziel_eur": 13.99,
       "gebuehren_eur": 2.0,
       "risk": "PASS",
       "risk_warnungen": [
-        "the stop 170.60 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+        "the stop 87.22 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
       ],
       "news": [
+        {
+          "zeit": "2026-11-09 20:47",
+          "titel": "Cisco Q1 Earnings – Here’s What Analysts Expect from CSCO Stock amid AI Trade Concerns",
+          "tags": [
+            "earnings"
+          ],
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-q1-earnings-analysts-expect-204703273.html?.tsrc=rss"
+        },
         {
           "zeit": "2026-11-09 20:46",
           "titel": "Stock Market Today: Dow Pops, Multiple Stocks Clear Entries; Jensen Huang Details Emerge (Live Coverage)",
@@ -137,212 +148,1063 @@
           "link": "https://finance.yahoo.com/m/6fc3228f-8806-33c0-9e3b-4402850ebacd/stock-market-today%3A-dow-pops%2C.html?.tsrc=rss"
         },
         {
-          "zeit": "2026-11-09 20:38",
-          "titel": "Why ImmunityBio Stock Dropped 15% After Earnings Despite 53% Sales Growth. Is IBRX Now a Buy?",
+          "zeit": "2026-11-09 20:00",
+          "titel": "Cisco Unveils Frontier AI Red Teaming and Agent Observability to Secure the Agentic Enterprise",
+          "tags": [],
+          "link": "https://finance.yahoo.com/technology/ai/articles/cisco-unveils-frontier-ai-red-200000973.html?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 19:17",
+          "titel": "$300,000 in Cisco, IBM and Microsoft Could Pay You $5,150 a Year",
+          "tags": [],
+          "link": "https://247wallst.com/investing/2026/11/09/300000-in-cisco-ibm-and-microsoft-could-pay-you-5150-a-year/?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 15:09",
+          "titel": "Cisco Systems (CSCO) Could Be 15% Undervalued As AI Earnings Focus Builds",
           "tags": [
             "earnings"
           ],
-          "link": "https://www.fool.com/investing/2026/11/09/why-immunitybio-stock-dropped-15-after-earnings-despite-53-sales-growth-is-ibrx-now-a-buy/?.tsrc=rss"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/cisco-systems-csco-could-15-150928783.html?.tsrc=rss"
+        }
+      ],
+      "quartal": {
+        "aenderungen": [
+          "Quarter ending 2026-07-25 (derived from the 10-K): revenue $17.25B (+17.6% vs a year earlier), net income $3.86B (+51.3%), diluted EPS $0.96 (+50.0%).",
+          "Gross margin 64.1% (+0.5 points vs the quarter before).",
+          "Operating margin 24.7% (-0.3 points vs the quarter before).",
+          "Net margin 22.4% (+1.1 points vs the quarter before).",
+          "Revenue +8.9% vs the quarter before (many businesses are seasonal: compare with a year earlier first)."
+        ],
+        "hinweis": null,
+        "earnings_8k": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000106/exhibit991pressrelease-q4f.htm",
+        "bericht": "https://www.sec.gov/Archives/edgar/data/858877/000085887726000132/csco-20260725.htm"
+      },
+      "naechste_zahlen_schaetzung": "2026-11-11",
+      "warnungen": [
+        "Naechste Quartalszahlen voraussichtlich um 2026-11-11 (Schaetzung: letzte am 2026-08-12 + 91 Tage) -- liegt in der Haltedauer, Kursluecke moeglich"
+      ]
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum Holdings Inc. - Common Stock",
+      "setup": "oversold_bounce",
+      "alle_setups": [
+        "oversold_bounce"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 596.16,
+      "stop": 346.63,
+      "ziel": 1095.22,
+      "atr": 83.18,
+      "historie": {
+        "n": 1,
+        "gewinner": 1,
+        "trefferquote": 1.0,
+        "ziel": 0,
+        "stop": 0,
+        "zeit": 1,
+        "summe_eur": 5.49,
+        "schnitt_eur": 5.49,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 35.3,
+      "betrag_eur": 19.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.4185621047792753,
+      "ziel_pct": 0.837124344700811,
+      "verlust_am_stop_eur": 9.95,
+      "gewinn_am_ziel_eur": 13.91,
+      "gebuehren_eur": 2.0,
+      "risk": "PASS",
+      "risk_warnungen": [
+        "the stop 346.63 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ],
+      "news": [
+        {
+          "zeit": "2026-11-09 20:17",
+          "titel": "Why Marvell Technology Stock Fell Hard in October",
+          "tags": [
+            "deal"
+          ],
+          "link": "https://www.fool.com/investing/2026/11/09/why-marvell-technology-stock-fell-hard-in-october/?.tsrc=rss"
         },
         {
-          "zeit": "2026-11-09 20:38",
-          "titel": "Lucid Investors Have Heard the Promises. Will Q3 Finally Show Progress?",
-          "tags": [],
-          "link": "https://www.fool.com/investing/2026/11/09/lucid-investors-have-heard-the-promises-will-q3-fi/?.tsrc=rss"
+          "zeit": "2026-11-09 19:33",
+          "titel": "Marvell Sinks 36%, Lumentum Drops 31% on $115 Billion Deal: Is the Selloff Overdone?",
+          "tags": [
+            "deal"
+          ],
+          "link": "https://www.tikr.com/blog/marvell-sinks-36-lumentum-drops-31-on-115-billion-deal-is-the-selloff-overdone?ref=yahoofinance&tlnk=yf-261109-m5w7p52w&.tsrc=rss"
         },
         {
-          "zeit": "2026-11-09 20:37",
-          "titel": "Nvidia stock slumps amid board investigation into CEO Jensen Huang",
+          "zeit": "2026-11-09 19:16",
+          "titel": "Marvell (MRVL) Stock Looks Undervalued After Its 166% Three Year Run",
+          "tags": [
+            "earnings",
+            "deal"
+          ],
+          "link": "https://finance.yahoo.com/markets/stocks/articles/marvell-mrvl-stock-looks-undervalued-191647901.html?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 18:55",
+          "titel": "Seagate Soars 10% in AI Rebound as Morgan Stanley Sees “Strong Fundamentals and Weak Sentiment”",
+          "tags": [
+            "analyst"
+          ],
+          "link": "https://www.tikr.com/blog/seagate-soars-10-in-ai-rebound-as-morgan-stanley-sees-strong-fundamentals-and-weak-sentiment?ref=yahoofinance&tlnk=yf-261109-c8f63xrx&.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 17:37",
+          "titel": "Coherent Soars 18%, Lumentum Up 12% as AI Optics Rebound Extends Despite Nvidia Turmoil",
           "tags": [
             "legal",
             "people"
           ],
-          "link": "https://www.cbsnews.com/news/nvidia-jensen-huang-stock-board-investigation-spy/?.tsrc=rss"
-        },
-        {
-          "zeit": "2026-11-09 20:35",
-          "titel": "I'd Put $100 Into Each of These 3 Dividend Stocks and Lose the Password",
-          "tags": [
-            "capital"
-          ],
-          "link": "https://www.fool.com/investing/2026/11/09/id-put-100-into-each-of-these-3-dividend-stocks-an/?.tsrc=rss"
+          "link": "https://www.tikr.com/blog/coherent-soars-18-lumentum-up-12-as-ai-optics-rebound-extends-despite-nvidia-turmoil?ref=yahoofinance&tlnk=yf-261109-9x65ffjm&.tsrc=rss"
         }
       ],
       "quartal": {
         "aenderungen": [
-          "Quarter ending 2026-07-26: revenue $96.22B (+105.9% vs a year earlier), net income $59.69B (+125.9%), diluted EPS $2.46 (+127.8%).",
-          "Gross margin 75.0% (+0.1 points vs the quarter before).",
-          "Operating margin 66.2% (+0.6 points vs the quarter before).",
-          "Net margin 62.0% (-9.5 points vs the quarter before).",
-          "Revenue +17.9% vs the quarter before (many businesses are seasonal: compare with a year earlier first)."
+          "Quarter ending 2026-09-26: revenue $1.26B (+136.5% vs a year earlier), net income $360.3M (+8478.6%), diluted EPS $3.54 (+6980.0%).",
+          "Gross margin 51.0% (+3.6 points vs the quarter before).",
+          "Operating margin 28.5% (+0.7 points vs the quarter before).",
+          "Net margin 28.5% (+740.2 points vs the quarter before).",
+          "Net income is above operating income: it includes gains outside the business (investments, tax items). Check the 10-Q before reading it as growth.",
+          "Revenue +25.5% vs the quarter before (many businesses are seasonal: compare with a year earlier first)."
         ],
         "hinweis": null,
-        "earnings_8k": null,
-        "bericht": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+        "earnings_8k": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026068655/lite_ex991xq1fy27.htm",
+        "bericht": "https://www.sec.gov/Archives/edgar/data/1633978/000162828026069615/lite-20260926.htm"
       },
-      "naechste_zahlen_schaetzung": "2026-11-25",
+      "naechste_zahlen_schaetzung": "2027-02-01",
       "warnungen": [
-        "Naechste Quartalszahlen voraussichtlich um 2026-11-25 (Schaetzung: letzte am 2026-08-26 + 91 Tage) -- liegt in der Haltedauer, Kursluecke moeglich"
+        "Naechste Quartalszahlen voraussichtlich um 2027-02-01 (Schaetzung: letzte am 2026-11-02 + 91 Tage) -- liegt in der Haltedauer, Kursluecke moeglich"
       ]
     },
     {
-      "symbol": "AMD",
-      "name": "",
+      "symbol": "DELL",
+      "name": "Dell Technologies Inc. Class C Common Stock",
       "setup": "oversold_bounce",
       "alle_setups": [
         "oversold_bounce"
       ],
-      "datum": "2026-11-06",
-      "einstieg": 449.04,
-      "stop": 373.0,
-      "ziel": 677.16,
-      "atr": 38.02,
+      "datum": "2026-11-09",
+      "einstieg": 346.18,
+      "stop": 243.29,
+      "ziel": 551.96,
+      "atr": 34.3,
       "historie": {
         "n": 2,
         "gewinner": 1,
         "trefferquote": 0.5,
-        "ziel": 0,
+        "ziel": 1,
         "stop": 0,
-        "zeit": 2,
-        "summe_eur": -2.63,
-        "schnitt_eur": -1.31,
+        "zeit": 1,
+        "summe_eur": 7.55,
+        "schnitt_eur": 3.78,
         "von": "2024-11-11",
-        "bis": "2026-11-06"
+        "bis": "2026-11-09"
       },
-      "rsi": 38.4,
-      "betrag_eur": 17.0,
+      "rsi": 32.6,
+      "betrag_eur": 26.0,
       "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.1693390501913703,
-      "ziel_pct": 0.5080170744568677,
-      "verlust_am_stop_eur": 4.88,
-      "gewinn_am_ziel_eur": 6.64,
+      "stop_pct": 0.29721530664004614,
+      "ziel_pct": 0.5944306767518606,
+      "verlust_am_stop_eur": 9.73,
+      "gewinn_am_ziel_eur": 13.46,
       "gebuehren_eur": 2.0,
       "risk": "PASS",
       "risk_warnungen": [
-        "the stop 373.00 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+        "the stop 243.29 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
       ],
       "news": [
         {
-          "zeit": "2026-11-09 19:16",
-          "titel": "AMD Lands Key Role in Google's New AI Chip System as Nvidia Rivalry Intensifies",
-          "tags": [],
-          "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63061050/amd-google-tpu?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
-        },
-        {
-          "zeit": "2026-11-09 19:08",
-          "titel": "Unless Nvidia Removes Jensen Huang, the Stock Is Worth Holding",
-          "tags": [],
-          "link": "https://finance.yahoo.com/m/8ff940db-1410-329b-a621-969229eccd32/unless-nvidia-removes-jensen.html?.tsrc=rss"
-        },
-        {
-          "zeit": "2026-11-09 18:18",
-          "titel": "AMD Stock Rises On Google Cloud Deal, Wall Street Upgrade",
+          "zeit": "2026-11-09 15:54",
+          "titel": "DELL Rallies 130% in a Year: Can AI Momentum Fuel More Gains?",
           "tags": [
-            "analyst",
-            "deal"
+            "earnings"
           ],
-          "link": "https://finance.yahoo.com/m/544d9f43-0b7f-3c42-b942-64d1474d8198/amd-stock-rises-on-google.html?.tsrc=rss"
+          "link": "https://finance.yahoo.com/technology/ai/articles/dell-rallies-130-ai-momentum-155400647.html?.tsrc=rss"
         },
         {
-          "zeit": "2026-11-09 18:02",
-          "titel": "AMD Stock Could Jump 34%. No, It’s Got Nothing to Do With the Nvidia Turmoil.",
-          "tags": [],
-          "link": "https://finance.yahoo.com/m/7bcea03a-9f2e-3518-97dc-b837344745d8/amd-stock-could-jump-34%25.-no%2C.html?.tsrc=rss"
+          "zeit": "2026-11-09 14:04",
+          "titel": "Dell and HPE Were AI Winners Until the Selloff. Can Earnings Put Them Back on Track?",
+          "tags": [
+            "earnings"
+          ],
+          "link": "https://247wallst.com/investing/2026/11/09/dell-and-hpe-were-ai-winners-until-the-selloff-can-earnings-put-them-back-on-track/?.tsrc=rss"
         },
         {
-          "zeit": "2026-11-09 17:58",
-          "titel": "Alphabet Stocks Rise 3.16% as Google Unveils Two New TPU Systems",
+          "zeit": "2026-11-09 09:57",
+          "titel": "The Zacks Analyst Blog Highlights Shell, Dell and Amphenol and Versus Systems",
           "tags": [],
-          "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-stocks-rise-3-16-175806057.html?.tsrc=rss"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/zacks-analyst-blog-highlights-shell-095700368.html?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-08 16:15",
+          "titel": "America’s AI Spending Boom Just Crossed a Staggering $1 Trillion Milestone",
+          "tags": [],
+          "link": "https://247wallst.com/investing/2026/11/08/americas-ai-spending-boom-just-crossed-a-staggering-1-trillion-milestone/?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-08 02:10",
+          "titel": "Celestica and Dell Just Dropped 22% in a Week. Is It Time to Sell, or Load Up?",
+          "tags": [],
+          "link": "https://www.tikr.com/blog/celestica-and-dell-just-dropped-22-in-a-week-is-it-time-to-sell-or-load-up?ref=yahoofinance&tlnk=yf-261108-cwqh6ppg&.tsrc=rss"
         }
       ],
       "quartal": {
         "aenderungen": [
-          "Quarter ending 2026-09-26: revenue $13.38B (+44.7% vs a year earlier), net income $2.43B (+95.3%), diluted EPS $1.46 (+94.7%).",
-          "Gross margin 53.9% (+0.1 points vs the quarter before).",
-          "Operating margin 21.2% (+3.9 points vs the quarter before).",
-          "Net margin 18.2% (-1.7 points vs the quarter before).",
-          "Revenue +16.0% vs the quarter before (many businesses are seasonal: compare with a year earlier first)."
+          "Quarter ending 2026-07-31: revenue $46.97B (+57.7% vs a year earlier), net income $4.13B (+255.1%), diluted EPS $6.34 (+272.9%).",
+          "Gross margin 20.9% (+3.1 points vs the quarter before).",
+          "Operating margin 11.5% (+3.2 points vs the quarter before).",
+          "Net margin 8.8% (+1.0 points vs the quarter before).",
+          "Revenue +7.1% vs the quarter before (many businesses are seasonal: compare with a year earlier first)."
         ],
         "hinweis": null,
-        "earnings_8k": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/amdq32026earningsslidesf.htm",
-        "bericht": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
+        "earnings_8k": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000039/exhibit991earnings8kq2fy27.htm",
+        "bericht": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm"
       },
-      "naechste_zahlen_schaetzung": "2027-02-02"
+      "naechste_zahlen_schaetzung": "2026-12-01",
+      "warnungen": [
+        "Naechste Quartalszahlen voraussichtlich um 2026-12-01 (Schaetzung: letzte am 2026-09-01 + 91 Tage) -- liegt in der Haltedauer, Kursluecke moeglich"
+      ]
+    },
+    {
+      "symbol": "RKLB",
+      "name": "Rocket Lab Corporation - Common Stock",
+      "setup": "reclaim_ma20",
+      "alle_setups": [
+        "reclaim_ma20"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 58.86,
+      "stop": 44.98,
+      "ziel": 86.62,
+      "atr": 4.63,
+      "historie": {
+        "n": 9,
+        "gewinner": 5,
+        "trefferquote": 0.5555555555555556,
+        "ziel": 5,
+        "stop": 4,
+        "zeit": 0,
+        "summe_eur": 25.66,
+        "schnitt_eur": 2.85,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 51.2,
+      "betrag_eur": 33.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.23581380337108804,
+      "ziel_pct": 0.4716275756335341,
+      "verlust_am_stop_eur": 9.78,
+      "gewinn_am_ziel_eur": 13.56,
+      "gebuehren_eur": 2.0,
+      "risk": "PASS",
+      "risk_warnungen": [
+        "the stop 44.98 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ],
+      "news": [
+        {
+          "zeit": "2026-11-09 21:06",
+          "titel": "Rocket Lab Corp filed a 8-K: earnings results",
+          "tags": [
+            "earnings"
+          ],
+          "link": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/0001819994-26-000073-index.htm"
+        },
+        {
+          "zeit": "2026-11-09 21:06",
+          "titel": "Rocket Lab Lands Over $515M in Neutron Launch Deals from Constellation Operators in Q3",
+          "tags": [],
+          "link": "https://finance.yahoo.com/technology/articles/rocket-lab-lands-over-515m-210600957.html?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 16:43",
+          "titel": "SpaceX, Rocket Lab blast higher as NASA hands out $10 billion in moon base awards",
+          "tags": [
+            "earnings"
+          ],
+          "link": "https://finance.yahoo.com/markets/article/spacex-rocket-lab-blast-higher-as-nasa-hands-out-10-billion-in-moon-base-awards-164320855.html?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 16:36",
+          "titel": "AST SpaceMobile Soars 16% on Rakuten Japan Satellite Joint Venture: “A Key Pillar”",
+          "tags": [
+            "deal"
+          ],
+          "link": "https://www.tikr.com/blog/ast-spacemobile-soars-16-on-rakuten-japan-satellite-joint-venture-a-key-pillar?ref=yahoofinance&tlnk=yf-261109-gvg22gqf&.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 16:36",
+          "titel": "Two space stocks face a major Wall Street test tonight",
+          "tags": [
+            "earnings"
+          ],
+          "link": "https://finance.yahoo.com/markets/stocks/articles/two-space-stocks-face-major-163631410.html?.tsrc=rss"
+        }
+      ],
+      "quartal": {
+        "aenderungen": [
+          "Quarter ending 2026-09-30: revenue $267.8M (+72.7% vs a year earlier), net income $-79.7M (-336.4%), diluted EPS $-0.12 (-300.0%).",
+          "Gross margin 33.6% (-2.5 points vs the quarter before).",
+          "Operating margin -29.6% (-5.0 points vs the quarter before).",
+          "Net margin -29.7% (-8.7 points vs the quarter before).",
+          "Revenue +14.4% vs the quarter before (many businesses are seasonal: compare with a year earlier first)."
+        ],
+        "hinweis": null,
+        "earnings_8k": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000073/rklb-11092026ex991.htm",
+        "bericht": "https://www.sec.gov/Archives/edgar/data/1819994/000181999426000074/rklb-20260930.htm"
+      },
+      "naechste_zahlen_schaetzung": "2027-02-08"
+    },
+    {
+      "symbol": "MRNA",
+      "name": "Moderna, Inc. - Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 269.0,
+      "stop": 198.04,
+      "ziel": 410.92,
+      "atr": 23.65,
+      "historie": {
+        "n": 13,
+        "gewinner": 5,
+        "trefferquote": 0.38461538461538464,
+        "ziel": 5,
+        "stop": 6,
+        "zeit": 2,
+        "summe_eur": 19.86,
+        "schnitt_eur": 1.53,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 67.3,
+      "betrag_eur": 30.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.26379182156133835,
+      "ziel_pct": 0.5275836431226767,
+      "verlust_am_stop_eur": 9.91,
+      "gewinn_am_ziel_eur": 13.83,
+      "gebuehren_eur": 2.0,
+      "risk": "PASS",
+      "risk_warnungen": [
+        "the stop 198.04 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft Corporation - Common Stock",
+      "setup": "reclaim_ma20",
+      "alle_setups": [
+        "reclaim_ma20"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 545.18,
+      "stop": 495.56,
+      "ziel": 644.42,
+      "atr": 16.54,
+      "historie": {
+        "n": 10,
+        "gewinner": 5,
+        "trefferquote": 0.5,
+        "ziel": 5,
+        "stop": 5,
+        "zeit": 0,
+        "summe_eur": 12.01,
+        "schnitt_eur": 1.2,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 57.1,
+      "betrag_eur": 87.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.0910157990799385,
+      "ziel_pct": 0.18203163846336667,
+      "verlust_am_stop_eur": 9.92,
+      "gewinn_am_ziel_eur": 13.84,
+      "gebuehren_eur": 2.0,
+      "risk": "PASS",
+      "risk_warnungen": [
+        "the stop 495.56 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ]
+    },
+    {
+      "symbol": "LLY",
+      "name": "Eli Lilly and Company Common Stock",
+      "setup": "bull_flag",
+      "alle_setups": [
+        "bull_flag"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 1411.82,
+      "stop": 1254.65,
+      "ziel": 1726.16,
+      "atr": 52.39,
+      "historie": {
+        "n": 7,
+        "gewinner": 3,
+        "trefferquote": 0.42857142857142855,
+        "ziel": 3,
+        "stop": 3,
+        "zeit": 1,
+        "summe_eur": 8.38,
+        "schnitt_eur": 1.2,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 67.7,
+      "betrag_eur": 71.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.11132435598617241,
+      "ziel_pct": 0.2226488261036214,
+      "verlust_am_stop_eur": 9.9,
+      "gewinn_am_ziel_eur": 13.81,
+      "gebuehren_eur": 2.0,
+      "risk": "PASS",
+      "risk_warnungen": [
+        "the stop 1254.65 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ]
+    },
+    {
+      "symbol": "GS",
+      "name": "Goldman Sachs Group, Inc. (The) Common Stock",
+      "setup": "reclaim_ma20",
+      "alle_setups": [
+        "reclaim_ma20"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 906.22,
+      "stop": 817.07,
+      "ziel": 1084.52,
+      "atr": 29.72,
+      "historie": {
+        "n": 9,
+        "gewinner": 4,
+        "trefferquote": 0.4444444444444444,
+        "ziel": 3,
+        "stop": 4,
+        "zeit": 2,
+        "summe_eur": 5.58,
+        "schnitt_eur": 0.62,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 50.3,
+      "betrag_eur": 81.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.0983756412187149,
+      "ziel_pct": 0.1967513794234022,
+      "verlust_am_stop_eur": 9.97,
+      "gewinn_am_ziel_eur": 13.94,
+      "gebuehren_eur": 2.0,
+      "risk": "PASS",
+      "risk_warnungen": [
+        "the stop 817.07 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ]
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology, Inc. - Common Stock",
+      "setup": "oversold_bounce",
+      "alle_setups": [
+        "oversold_bounce"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 154.6,
+      "stop": 98.68,
+      "ziel": 266.44,
+      "atr": 18.64,
+      "historie": {
+        "n": 2,
+        "gewinner": 1,
+        "trefferquote": 0.5,
+        "ziel": 1,
+        "stop": 1,
+        "zeit": 0,
+        "summe_eur": 0.85,
+        "schnitt_eur": 0.43,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 32.2,
+      "betrag_eur": 22.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.36170765779965897,
+      "ziel_pct": 0.7234151971611152,
+      "verlust_am_stop_eur": 9.96,
+      "gewinn_am_ziel_eur": 13.92,
+      "gebuehren_eur": 2.0,
+      "risk": "PASS",
+      "risk_warnungen": [
+        "the stop 98.68 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ]
+    },
+    {
+      "symbol": "MPWR",
+      "name": "Monolithic Power Systems, Inc. - Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d",
+        "reclaim_ma20"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 1388.05,
+      "stop": 1118.24,
+      "ziel": 1927.67,
+      "atr": 89.94,
+      "historie": {
+        "n": 11,
+        "gewinner": 5,
+        "trefferquote": 0.45454545454545453,
+        "ziel": 4,
+        "stop": 6,
+        "zeit": 1,
+        "summe_eur": 1.86,
+        "schnitt_eur": 0.17,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 58.8,
+      "betrag_eur": 41.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.1943806342256281,
+      "ziel_pct": 0.38876116291876833,
+      "verlust_am_stop_eur": 9.97,
+      "gewinn_am_ziel_eur": 13.94,
+      "gebuehren_eur": 2.0,
+      "risk": "PASS",
+      "risk_warnungen": [
+        "the stop 1118.24 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ]
+    },
+    {
+      "symbol": "SNDK",
+      "name": "Sandisk Corporation - Common Stock When-Issued",
+      "setup": "oversold_bounce",
+      "alle_setups": [
+        "oversold_bounce"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 886.51,
+      "stop": 561.42,
+      "ziel": 1536.69,
+      "atr": 108.36,
+      "historie": {
+        "n": 1,
+        "gewinner": 0,
+        "trefferquote": 0.0,
+        "ziel": 0,
+        "stop": 1,
+        "zeit": 0,
+        "summe_eur": -9.72,
+        "schnitt_eur": -9.72,
+        "von": "2025-02-13",
+        "bis": "2026-11-09"
+      },
+      "rsi": 30.3,
+      "betrag_eur": 21.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.36670765832815827,
+      "ziel_pct": 0.7334152836088893,
+      "verlust_am_stop_eur": 9.7,
+      "gewinn_am_ziel_eur": 13.4,
+      "gebuehren_eur": 2.0,
+      "risk": "PASS",
+      "risk_warnungen": [
+        "the stop 561.42 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ]
     }
   ],
   "abgelehnt": [
     {
-      "symbol": "PLTR",
-      "name": "",
+      "symbol": "AAPL",
+      "name": "Apple Inc. - Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d",
+        "reclaim_ma20"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 350.69,
+      "stop": 322.45,
+      "ziel": 407.17,
+      "atr": 9.41,
+      "historie": {
+        "n": 8,
+        "gewinner": 4,
+        "trefferquote": 0.5,
+        "ziel": 3,
+        "stop": 4,
+        "zeit": 1,
+        "summe_eur": 3.13,
+        "schnitt_eur": 0.39,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 57.7,
+      "betrag_eur": 99.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.08052696753488044,
+      "ziel_pct": 0.16105391418459533,
+      "verlust_am_stop_eur": 9.97,
+      "gewinn_am_ziel_eur": 13.94,
+      "gebuehren_eur": 2.0,
+      "risk": "BLOCK",
+      "risk_warnungen": [
+        "the stop 322.45 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ],
+      "gruende": [
+        "trader-risk: cash: leaves $0.92 cash, under your 10% buffer of $11.21"
+      ]
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon.com, Inc. - Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 266.93,
+      "stop": 235.27,
+      "ziel": 330.25,
+      "atr": 10.55,
+      "historie": {
+        "n": 9,
+        "gewinner": 2,
+        "trefferquote": 0.2222222222222222,
+        "ziel": 2,
+        "stop": 5,
+        "zeit": 2,
+        "summe_eur": -20.22,
+        "schnitt_eur": -2.25,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 58.9,
+      "betrag_eur": 67.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.11860785053943387,
+      "ziel_pct": 0.2372157833950438,
+      "verlust_am_stop_eur": 9.95,
+      "gewinn_am_ziel_eur": 13.89,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei AMZN im Schnitt -2,25 EUR pro Trade (9 Trades)"
+      ]
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc. - Class A Common Stock",
       "setup": "oversold_bounce",
       "alle_setups": [
         "oversold_bounce"
       ],
-      "datum": "2026-11-06",
-      "einstieg": 160.38,
-      "stop": 140.47,
-      "ziel": 220.11,
-      "atr": 9.95,
+      "datum": "2026-11-09",
+      "einstieg": 288.15,
+      "stop": 253.16,
+      "ziel": 358.13,
+      "atr": 11.66,
       "historie": {
-        "n": 3,
+        "n": 4,
         "gewinner": 2,
-        "trefferquote": 0.6666666666666666,
-        "ziel": 0,
-        "stop": 1,
-        "zeit": 2,
-        "summe_eur": -0.99,
-        "schnitt_eur": -0.33,
+        "trefferquote": 0.5,
+        "ziel": 1,
+        "stop": 2,
+        "zeit": 1,
+        "summe_eur": -8.71,
+        "schnitt_eur": -2.18,
         "von": "2024-11-11",
-        "bis": "2026-11-06"
+        "bis": "2026-11-09"
       },
-      "rsi": 30.8,
-      "betrag_eur": 24.0,
+      "rsi": 32.6,
+      "betrag_eur": 65.0,
       "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.1241426878454111,
-      "ziel_pct": 0.37242794175515465,
-      "verlust_am_stop_eur": 4.98,
-      "gewinn_am_ziel_eur": 6.94,
+      "stop_pct": 0.12142979225276077,
+      "ziel_pct": 0.24285964805071414,
+      "verlust_am_stop_eur": 9.89,
+      "gewinn_am_ziel_eur": 13.79,
       "gebuehren_eur": 2.0,
       "gruende": [
-        "Historie: dieselbe Regel brachte bei PLTR im Schnitt -0,33 EUR pro Trade (3 Trades)"
+        "Historie: dieselbe Regel brachte bei GOOGL im Schnitt -2,18 EUR pro Trade (4 Trades)"
+      ]
+    },
+    {
+      "symbol": "GOOG",
+      "name": "Alphabet Inc. - Class C Capital Stock",
+      "setup": "oversold_bounce",
+      "alle_setups": [
+        "oversold_bounce"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 286.01,
+      "stop": 251.15,
+      "ziel": 355.73,
+      "atr": 11.62,
+      "historie": {
+        "n": 4,
+        "gewinner": 2,
+        "trefferquote": 0.5,
+        "ziel": 1,
+        "stop": 2,
+        "zeit": 1,
+        "summe_eur": -9.84,
+        "schnitt_eur": -2.46,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 31.6,
+      "betrag_eur": 65.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.12188388019772989,
+      "ziel_pct": 0.2437676579624191,
+      "verlust_am_stop_eur": 9.92,
+      "gewinn_am_ziel_eur": 13.84,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei GOOG im Schnitt -2,46 EUR pro Trade (4 Trades)"
+      ]
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent Corp. Common Stock",
+      "setup": "reclaim_ma20",
+      "alle_setups": [
+        "reclaim_ma20"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 225.19,
+      "stop": 160.47,
+      "ziel": 354.63,
+      "atr": 21.58,
+      "historie": {
+        "n": 11,
+        "gewinner": 4,
+        "trefferquote": 0.36363636363636365,
+        "ziel": 4,
+        "stop": 7,
+        "zeit": 0,
+        "summe_eur": -15.34,
+        "schnitt_eur": -1.39,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 46.8,
+      "betrag_eur": 27.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.2874017573593046,
+      "ziel_pct": 0.5748034821939915,
+      "verlust_am_stop_eur": 9.76,
+      "gewinn_am_ziel_eur": 13.52,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei COHR im Schnitt -1,39 EUR pro Trade (11 Trades)"
+      ]
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology Holdings PLC - Ordinary Shares (Ireland)",
+      "setup": "oversold_bounce",
+      "alle_setups": [
+        "oversold_bounce"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 506.14,
+      "stop": 340.03,
+      "ziel": 838.36,
+      "atr": 55.37,
+      "historie": {
+        "n": 3,
+        "gewinner": 1,
+        "trefferquote": 0.3333333333333333,
+        "ziel": 1,
+        "stop": 2,
+        "zeit": 0,
+        "summe_eur": -8.77,
+        "schnitt_eur": -2.92,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 32.1,
+      "betrag_eur": 24.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.32818984834427045,
+      "ziel_pct": 0.6563796098641222,
+      "verlust_am_stop_eur": 9.88,
+      "gewinn_am_ziel_eur": 13.75,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei STX im Schnitt -2,92 EUR pro Trade (3 Trades)"
+      ]
+    },
+    {
+      "symbol": "TXN",
+      "name": "Texas Instruments Incorporated - Common Stock",
+      "setup": "reclaim_ma20",
+      "alle_setups": [
+        "reclaim_ma20"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 295.73,
+      "stop": 254.02,
+      "ziel": 379.15,
+      "atr": 13.9,
+      "historie": {
+        "n": 10,
+        "gewinner": 4,
+        "trefferquote": 0.4,
+        "ziel": 3,
+        "stop": 6,
+        "zeit": 1,
+        "summe_eur": -11.41,
+        "schnitt_eur": -1.14,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 52.7,
+      "betrag_eur": 56.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.14104084616645962,
+      "ziel_pct": 0.28208158088334306,
+      "verlust_am_stop_eur": 9.9,
+      "gewinn_am_ziel_eur": 13.8,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei TXN im Schnitt -1,14 EUR pro Trade (10 Trades)"
+      ]
+    },
+    {
+      "symbol": "APP",
+      "name": "Applovin Corporation - Class A Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 410.0,
+      "stop": 342.7,
+      "ziel": 544.6,
+      "atr": 22.43,
+      "historie": {
+        "n": 12,
+        "gewinner": 4,
+        "trefferquote": 0.3333333333333333,
+        "ziel": 4,
+        "stop": 7,
+        "zeit": 1,
+        "summe_eur": -16.7,
+        "schnitt_eur": -1.39,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 78.5,
+      "betrag_eur": 48.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.16414634146341467,
+      "ziel_pct": 0.32829268292682934,
+      "verlust_am_stop_eur": 9.88,
+      "gewinn_am_ziel_eur": 13.76,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei APP im Schnitt -1,39 EUR pro Trade (12 Trades)"
+      ]
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital Corporation - Common Stock",
+      "setup": "oversold_bounce",
+      "alle_setups": [
+        "oversold_bounce"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 289.78,
+      "stop": 205.23,
+      "ziel": 458.88,
+      "atr": 28.18,
+      "historie": {
+        "n": 3,
+        "gewinner": 1,
+        "trefferquote": 0.3333333333333333,
+        "ziel": 1,
+        "stop": 2,
+        "zeit": 0,
+        "summe_eur": -7.29,
+        "schnitt_eur": -2.43,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 35.7,
+      "betrag_eur": 27.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.2917730662415114,
+      "ziel_pct": 0.5835461451205732,
+      "verlust_am_stop_eur": 9.88,
+      "gewinn_am_ziel_eur": 13.76,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei WDC im Schnitt -2,43 EUR pro Trade (3 Trades)"
+      ]
+    },
+    {
+      "symbol": "COST",
+      "name": "Costco Wholesale Corporation - Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 1066.18,
+      "stop": 1002.07,
+      "ziel": 1194.4,
+      "atr": 21.37,
+      "historie": {
+        "n": 9,
+        "gewinner": 3,
+        "trefferquote": 0.3333333333333333,
+        "ziel": 3,
+        "stop": 4,
+        "zeit": 2,
+        "summe_eur": -19.39,
+        "schnitt_eur": -2.15,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 69.5,
+      "betrag_eur": 100.0,
+      "begrenzt_durch": "Positionsgrenze",
+      "stop_pct": 0.060130606915592286,
+      "ziel_pct": 0.12026106270022714,
+      "verlust_am_stop_eur": 8.01,
+      "gewinn_am_ziel_eur": 10.03,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei COST im Schnitt -2,15 EUR pro Trade (9 Trades)"
+      ]
+    },
+    {
+      "symbol": "JPM",
+      "name": "JP Morgan Chase & Co. Common Stock",
+      "setup": "reclaim_ma20",
+      "alle_setups": [
+        "reclaim_ma20"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 342.08,
+      "stop": 318.04,
+      "ziel": 390.16,
+      "atr": 8.01,
+      "historie": {
+        "n": 7,
+        "gewinner": 4,
+        "trefferquote": 0.5714285714285714,
+        "ziel": 2,
+        "stop": 2,
+        "zeit": 3,
+        "summe_eur": 5.94,
+        "schnitt_eur": 0.85,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 52.6,
+      "betrag_eur": 100.0,
+      "begrenzt_durch": "Positionsgrenze",
+      "stop_pct": 0.07027592234539295,
+      "ziel_pct": 0.14055196245038826,
+      "verlust_am_stop_eur": 9.03,
+      "gewinn_am_ziel_eur": 12.06,
+      "gebuehren_eur": 2.0,
+      "risk": "BLOCK",
+      "risk_warnungen": [
+        "the stop 318.04 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ],
+      "gruende": [
+        "trader-risk: size: $112.26 is over your $112.06 max order",
+        "trader-risk: cash: needs $112.26 but only $112.06 cash; that would be margin (borrowed money)",
+        "trader-risk: position: JPM would be $112.26, 100.2% of the $112.06 account, over your 100% cap"
       ]
     },
     {
       "symbol": "CAT",
-      "name": "",
+      "name": "Caterpillar, Inc. Common Stock",
       "setup": "oversold_bounce",
       "alle_setups": [
-        "oversold",
         "oversold_bounce"
       ],
-      "datum": "2026-11-06",
-      "einstieg": 558.63,
-      "stop": 497.35,
-      "ziel": 742.47,
-      "atr": 30.64,
+      "datum": "2026-11-09",
+      "einstieg": 598.88,
+      "stop": 503.64,
+      "ziel": 789.36,
+      "atr": 31.75,
       "historie": {
-        "n": 7,
+        "n": 6,
         "gewinner": 2,
-        "trefferquote": 0.2857142857142857,
-        "ziel": 1,
-        "stop": 3,
-        "zeit": 3,
-        "summe_eur": -16.73,
-        "schnitt_eur": -2.39,
+        "trefferquote": 0.3333333333333333,
+        "ziel": 2,
+        "stop": 4,
+        "zeit": 0,
+        "summe_eur": -18.78,
+        "schnitt_eur": -3.13,
         "von": "2024-11-11",
-        "bis": "2026-11-06"
+        "bis": "2026-11-09"
       },
-      "rsi": 21.0,
-      "betrag_eur": 27.0,
+      "rsi": 32.6,
+      "betrag_eur": 50.0,
       "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.10969694493167725,
-      "ziel_pct": 0.3290907998322662,
-      "verlust_am_stop_eur": 4.96,
-      "gewinn_am_ziel_eur": 6.89,
+      "stop_pct": 0.15903019654404535,
+      "ziel_pct": 0.3180603686283702,
+      "verlust_am_stop_eur": 9.95,
+      "gewinn_am_ziel_eur": 13.9,
       "gebuehren_eur": 2.0,
       "gruende": [
-        "Historie: dieselbe Regel brachte bei CAT im Schnitt -2,39 EUR pro Trade (7 Trades)"
+        "Historie: dieselbe Regel brachte bei CAT im Schnitt -3,13 EUR pro Trade (6 Trades)"
+      ]
+    },
+    {
+      "symbol": "JNJ",
+      "name": "Johnson & Johnson Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d"
+      ],
+      "datum": "2026-11-09",
+      "einstieg": 282.11,
+      "stop": 258.63,
+      "ziel": 329.07,
+      "atr": 7.83,
+      "historie": {
+        "n": 11,
+        "gewinner": 6,
+        "trefferquote": 0.5454545454545454,
+        "ziel": 6,
+        "stop": 4,
+        "zeit": 1,
+        "summe_eur": 15.76,
+        "schnitt_eur": 1.43,
+        "von": "2024-11-11",
+        "bis": "2026-11-09"
+      },
+      "rsi": 63.6,
+      "betrag_eur": 96.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.08322989816295227,
+      "ziel_pct": 0.16645995209959127,
+      "verlust_am_stop_eur": 9.99,
+      "gewinn_am_ziel_eur": 13.98,
+      "gebuehren_eur": 2.0,
+      "risk": "BLOCK",
+      "risk_warnungen": [
+        "the stop 258.63 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ],
+      "gruende": [
+        "trader-risk: cash: leaves $4.29 cash, under your 10% buffer of $11.21"
       ]
     }
   ]

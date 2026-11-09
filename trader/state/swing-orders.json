@@ -1,15 +1,15 @@
 [
   {
-    "symbol": "INTC",
+    "symbol": "RKLB",
     "side": "buy",
-    "notional": "13.47",
+    "notional": "37.05",
     "type": "market",
     "time_in_force": "day",
     "plan": {
-      "entry": 56.28,
-      "stop": 43.26,
-      "target": 95.34,
-      "setup": "oversold_bounce"
+      "entry": 58.86,
+      "stop": 44.98,
+      "target": 86.62,
+      "setup": "reclaim_ma20"
     }
   }
 ]
