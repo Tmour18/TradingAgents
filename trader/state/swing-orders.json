@@ -1,0 +1,15 @@
+[
+  {
+    "symbol": "INTC",
+    "side": "buy",
+    "notional": "13.47",
+    "type": "market",
+    "time_in_force": "day",
+    "plan": {
+      "entry": 56.28,
+      "stop": 43.26,
+      "target": 95.34,
+      "setup": "oversold_bounce"
+    }
+  }
+]

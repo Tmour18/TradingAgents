@@ -1,15 +1,15 @@
 {
   "created_by": "trader-scanner",
-  "created_at": "2026-11-09T16:15:20Z",
+  "created_at": "2026-11-09T20:55:00Z",
   "mode": "daily",
   "as_of": "2026-11-06 close",
-  "universe": 10,
-  "scanned": 10,
+  "universe": 15,
+  "scanned": 15,
   "failed": 0,
   "source": "yahoo",
   "filters": {
     "min_price": 5.0,
-    "min_volume": 0
+    "min_volume": 1000000
   },
   "note": "A scan is a list of charts that match a rule, not a list of stocks to buy.",
   "hits": [
@@ -21,7 +21,17 @@
       "price": 186.64,
       "close_date": "2026-11-06",
       "rsi": 30.6,
-      "volume": 227670088
+      "volume": 406675148
+    },
+    {
+      "symbol": "AMD",
+      "setups": [
+        "oversold_bounce"
+      ],
+      "price": 449.04,
+      "close_date": "2026-11-06",
+      "rsi": 38.4,
+      "volume": 42140001
     },
     {
       "symbol": "INTC",
@@ -32,7 +42,28 @@
       "price": 56.28,
       "close_date": "2026-11-06",
       "rsi": 25.6,
-      "volume": 51571027
+      "volume": 109466798
+    },
+    {
+      "symbol": "PLTR",
+      "setups": [
+        "oversold_bounce"
+      ],
+      "price": 160.38,
+      "close_date": "2026-11-06",
+      "rsi": 30.8,
+      "volume": 17278347
+    },
+    {
+      "symbol": "CAT",
+      "setups": [
+        "oversold",
+        "oversold_bounce"
+      ],
+      "price": 558.63,
+      "close_date": "2026-11-06",
+      "rsi": 21.0,
+      "volume": 2746562
     }
   ]
 }

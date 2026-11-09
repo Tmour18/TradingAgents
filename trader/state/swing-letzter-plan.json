@@ -1,0 +1,349 @@
+{
+  "datum": "2026-11-09",
+  "fx": 1.1223344802856445,
+  "kandidaten": [
+    {
+      "symbol": "INTC",
+      "name": "",
+      "setup": "oversold_bounce",
+      "alle_setups": [
+        "oversold",
+        "oversold_bounce"
+      ],
+      "datum": "2026-11-06",
+      "einstieg": 56.28,
+      "stop": 43.26,
+      "ziel": 95.34,
+      "atr": 6.51,
+      "historie": {
+        "n": 2,
+        "gewinner": 1,
+        "trefferquote": 0.5,
+        "ziel": 1,
+        "stop": 0,
+        "zeit": 1,
+        "summe_eur": 6.27,
+        "schnitt_eur": 3.14,
+        "von": "2024-11-11",
+        "bis": "2026-11-06"
+      },
+      "rsi": 25.6,
+      "betrag_eur": 12.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.23134326691006266,
+      "ziel_pct": 0.6940298874894737,
+      "verlust_am_stop_eur": 4.78,
+      "gewinn_am_ziel_eur": 6.33,
+      "gebuehren_eur": 2.0,
+      "risk": "PASS",
+      "risk_warnungen": [
+        "the stop 43.26 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ],
+      "news": [
+        {
+          "zeit": "2026-11-09 16:03",
+          "titel": "AMD Just Eased Wall Street’s AI Spending Scare. Here’s What It Means for the Stock",
+          "tags": [],
+          "link": "https://247wallst.com/investing/2026/11/09/amd-just-eased-wall-streets-ai-spending-scare-heres-what-it-means-for-the-stock/?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 15:30",
+          "titel": "BC-Most Active Stocks",
+          "tags": [],
+          "link": "https://finance.yahoo.com/markets/stocks/articles/bc-most-active-stocks-153021871.html?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 14:47",
+          "titel": "Intel took 25 years to get back to its dot-com peak — and lost it in 6 months: Chart of the Day",
+          "tags": [
+            "deal"
+          ],
+          "link": "https://finance.yahoo.com/markets/article/intel-took-25-years-to-get-back-to-its-dot-com-peak--and-lost-it-in-6-months-chart-of-the-day-144715722.html?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 14:44",
+          "titel": "ASML Raises 2026 Guidance as AI Demand Accelerates Capacity Expansion",
+          "tags": [
+            "earnings"
+          ],
+          "link": "https://finance.yahoo.com/technology/articles/asml-raises-2026-guidance-ai-144400818.html?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 14:33",
+          "titel": "ASML Falls 20% in the Past Month as AI Growth Meets Execution Risk",
+          "tags": [],
+          "link": "https://finance.yahoo.com/markets/stocks/articles/asml-falls-20-past-month-143300792.html?.tsrc=rss"
+        }
+      ],
+      "quartal": {
+        "aenderungen": [
+          "Quarter ending 2026-09-26: revenue $16.51B (+20.9% vs a year earlier), net income $3.32B (-18.3%), diluted EPS $0.60 (-33.3%).",
+          "Gross margin 43.0% (+2.6 points vs the quarter before).",
+          "Operating margin 15.3% (+4.2 points vs the quarter before).",
+          "Net margin 20.1% (+88.5 points vs the quarter before).",
+          "Net income is above operating income: it includes gains outside the business (investments, tax items). Check the 10-Q before reading it as growth.",
+          "Revenue +2.4% vs the quarter before (many businesses are seasonal: compare with a year earlier first)."
+        ],
+        "hinweis": null,
+        "earnings_8k": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/q326earningsrelease.htm",
+        "bericht": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm"
+      },
+      "naechste_zahlen_schaetzung": "2027-01-28"
+    },
+    {
+      "symbol": "NVDA",
+      "name": "",
+      "setup": "oversold_bounce",
+      "alle_setups": [
+        "oversold_bounce"
+      ],
+      "datum": "2026-11-06",
+      "einstieg": 186.64,
+      "stop": 170.6,
+      "ziel": 234.76,
+      "atr": 8.02,
+      "historie": {
+        "n": 1,
+        "gewinner": 0,
+        "trefferquote": 0.0,
+        "ziel": 0,
+        "stop": 0,
+        "zeit": 1,
+        "summe_eur": -0.53,
+        "schnitt_eur": -0.53,
+        "von": "2024-11-11",
+        "bis": "2026-11-06"
+      },
+      "rsi": 30.6,
+      "betrag_eur": 34.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.08594084570350714,
+      "ziel_pct": 0.2578225501913521,
+      "verlust_am_stop_eur": 4.92,
+      "gewinn_am_ziel_eur": 6.77,
+      "gebuehren_eur": 2.0,
+      "risk": "PASS",
+      "risk_warnungen": [
+        "the stop 170.60 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ],
+      "news": [
+        {
+          "zeit": "2026-11-09 20:46",
+          "titel": "Stock Market Today: Dow Pops, Multiple Stocks Clear Entries; Jensen Huang Details Emerge (Live Coverage)",
+          "tags": [
+            "legal",
+            "people"
+          ],
+          "link": "https://finance.yahoo.com/m/6fc3228f-8806-33c0-9e3b-4402850ebacd/stock-market-today%3A-dow-pops%2C.html?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 20:38",
+          "titel": "Why ImmunityBio Stock Dropped 15% After Earnings Despite 53% Sales Growth. Is IBRX Now a Buy?",
+          "tags": [
+            "earnings"
+          ],
+          "link": "https://www.fool.com/investing/2026/11/09/why-immunitybio-stock-dropped-15-after-earnings-despite-53-sales-growth-is-ibrx-now-a-buy/?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 20:38",
+          "titel": "Lucid Investors Have Heard the Promises. Will Q3 Finally Show Progress?",
+          "tags": [],
+          "link": "https://www.fool.com/investing/2026/11/09/lucid-investors-have-heard-the-promises-will-q3-fi/?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 20:37",
+          "titel": "Nvidia stock slumps amid board investigation into CEO Jensen Huang",
+          "tags": [
+            "legal",
+            "people"
+          ],
+          "link": "https://www.cbsnews.com/news/nvidia-jensen-huang-stock-board-investigation-spy/?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 20:35",
+          "titel": "I'd Put $100 Into Each of These 3 Dividend Stocks and Lose the Password",
+          "tags": [
+            "capital"
+          ],
+          "link": "https://www.fool.com/investing/2026/11/09/id-put-100-into-each-of-these-3-dividend-stocks-an/?.tsrc=rss"
+        }
+      ],
+      "quartal": {
+        "aenderungen": [
+          "Quarter ending 2026-07-26: revenue $96.22B (+105.9% vs a year earlier), net income $59.69B (+125.9%), diluted EPS $2.46 (+127.8%).",
+          "Gross margin 75.0% (+0.1 points vs the quarter before).",
+          "Operating margin 66.2% (+0.6 points vs the quarter before).",
+          "Net margin 62.0% (-9.5 points vs the quarter before).",
+          "Revenue +17.9% vs the quarter before (many businesses are seasonal: compare with a year earlier first)."
+        ],
+        "hinweis": null,
+        "earnings_8k": null,
+        "bericht": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm"
+      },
+      "naechste_zahlen_schaetzung": "2026-11-25",
+      "warnungen": [
+        "Naechste Quartalszahlen voraussichtlich um 2026-11-25 (Schaetzung: letzte am 2026-08-26 + 91 Tage) -- liegt in der Haltedauer, Kursluecke moeglich"
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "name": "",
+      "setup": "oversold_bounce",
+      "alle_setups": [
+        "oversold_bounce"
+      ],
+      "datum": "2026-11-06",
+      "einstieg": 449.04,
+      "stop": 373.0,
+      "ziel": 677.16,
+      "atr": 38.02,
+      "historie": {
+        "n": 2,
+        "gewinner": 1,
+        "trefferquote": 0.5,
+        "ziel": 0,
+        "stop": 0,
+        "zeit": 2,
+        "summe_eur": -2.63,
+        "schnitt_eur": -1.31,
+        "von": "2024-11-11",
+        "bis": "2026-11-06"
+      },
+      "rsi": 38.4,
+      "betrag_eur": 17.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.1693390501913703,
+      "ziel_pct": 0.5080170744568677,
+      "verlust_am_stop_eur": 4.88,
+      "gewinn_am_ziel_eur": 6.64,
+      "gebuehren_eur": 2.0,
+      "risk": "PASS",
+      "risk_warnungen": [
+        "the stop 373.00 is in the plan only, not at the broker: set a stop alert (trader-alerts: alerts.py add --from-plan)"
+      ],
+      "news": [
+        {
+          "zeit": "2026-11-09 19:16",
+          "titel": "AMD Lands Key Role in Google's New AI Chip System as Nvidia Rivalry Intensifies",
+          "tags": [],
+          "link": "https://www.benzinga.com/markets/prediction-markets/26/11/63061050/amd-google-tpu?utm_source=yahooFinance&utm_campaign=partner_feed&utm_medium=referral&.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 19:08",
+          "titel": "Unless Nvidia Removes Jensen Huang, the Stock Is Worth Holding",
+          "tags": [],
+          "link": "https://finance.yahoo.com/m/8ff940db-1410-329b-a621-969229eccd32/unless-nvidia-removes-jensen.html?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 18:18",
+          "titel": "AMD Stock Rises On Google Cloud Deal, Wall Street Upgrade",
+          "tags": [
+            "analyst",
+            "deal"
+          ],
+          "link": "https://finance.yahoo.com/m/544d9f43-0b7f-3c42-b942-64d1474d8198/amd-stock-rises-on-google.html?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 18:02",
+          "titel": "AMD Stock Could Jump 34%. No, It’s Got Nothing to Do With the Nvidia Turmoil.",
+          "tags": [],
+          "link": "https://finance.yahoo.com/m/7bcea03a-9f2e-3518-97dc-b837344745d8/amd-stock-could-jump-34%25.-no%2C.html?.tsrc=rss"
+        },
+        {
+          "zeit": "2026-11-09 17:58",
+          "titel": "Alphabet Stocks Rise 3.16% as Google Unveils Two New TPU Systems",
+          "tags": [],
+          "link": "https://finance.yahoo.com/technology/ai/articles/alphabet-stocks-rise-3-16-175806057.html?.tsrc=rss"
+        }
+      ],
+      "quartal": {
+        "aenderungen": [
+          "Quarter ending 2026-09-26: revenue $13.38B (+44.7% vs a year earlier), net income $2.43B (+95.3%), diluted EPS $1.46 (+94.7%).",
+          "Gross margin 53.9% (+0.1 points vs the quarter before).",
+          "Operating margin 21.2% (+3.9 points vs the quarter before).",
+          "Net margin 18.2% (-1.7 points vs the quarter before).",
+          "Revenue +16.0% vs the quarter before (many businesses are seasonal: compare with a year earlier first)."
+        ],
+        "hinweis": null,
+        "earnings_8k": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/amdq32026earningsslidesf.htm",
+        "bericht": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm"
+      },
+      "naechste_zahlen_schaetzung": "2027-02-02"
+    }
+  ],
+  "abgelehnt": [
+    {
+      "symbol": "PLTR",
+      "name": "",
+      "setup": "oversold_bounce",
+      "alle_setups": [
+        "oversold_bounce"
+      ],
+      "datum": "2026-11-06",
+      "einstieg": 160.38,
+      "stop": 140.47,
+      "ziel": 220.11,
+      "atr": 9.95,
+      "historie": {
+        "n": 3,
+        "gewinner": 2,
+        "trefferquote": 0.6666666666666666,
+        "ziel": 0,
+        "stop": 1,
+        "zeit": 2,
+        "summe_eur": -0.99,
+        "schnitt_eur": -0.33,
+        "von": "2024-11-11",
+        "bis": "2026-11-06"
+      },
+      "rsi": 30.8,
+      "betrag_eur": 24.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.1241426878454111,
+      "ziel_pct": 0.37242794175515465,
+      "verlust_am_stop_eur": 4.98,
+      "gewinn_am_ziel_eur": 6.94,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei PLTR im Schnitt -0,33 EUR pro Trade (3 Trades)"
+      ]
+    },
+    {
+      "symbol": "CAT",
+      "name": "",
+      "setup": "oversold_bounce",
+      "alle_setups": [
+        "oversold",
+        "oversold_bounce"
+      ],
+      "datum": "2026-11-06",
+      "einstieg": 558.63,
+      "stop": 497.35,
+      "ziel": 742.47,
+      "atr": 30.64,
+      "historie": {
+        "n": 7,
+        "gewinner": 2,
+        "trefferquote": 0.2857142857142857,
+        "ziel": 1,
+        "stop": 3,
+        "zeit": 3,
+        "summe_eur": -16.73,
+        "schnitt_eur": -2.39,
+        "von": "2024-11-11",
+        "bis": "2026-11-06"
+      },
+      "rsi": 21.0,
+      "betrag_eur": 27.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.10969694493167725,
+      "ziel_pct": 0.3290907998322662,
+      "verlust_am_stop_eur": 4.96,
+      "gewinn_am_ziel_eur": 6.89,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei CAT im Schnitt -2,39 EUR pro Trade (7 Trades)"
+      ]
+    }
+  ]
+}

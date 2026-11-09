@@ -10,8 +10,8 @@
   "max_orders_per_day": 10,
   "min_reward_risk": 1.0,
   "require_stop": true,
-  "no_entries_before": "09:45",
-  "no_entries_after": "15:30",
+  "no_entries_before": null,
+  "no_entries_after": null,
   "flat_by": "15:55",
   "fractional": true,
   "broker": "none (Trade Republic, manuell)",
@@ -22,5 +22,5 @@
   "allow_short": false,
   "pdt_guard": false,
   "sec_user_agent": "",
-  "_hinweis": "Betraege in USD, umgerechnet mit EUR/USD 1.1206 (Yahoo, 2026-11-09): budget = 100 EUR, max_loss_per_trade_usd = 5 EUR, max_daily_loss_usd = 10 EUR. SEC-User-Agent kommt aus der Umgebungsvariable SEC_USER_AGENT (.env), damit die E-Mail nicht im oeffentlichen Repo steht. Gebuehr pro Order: 1 EUR."
+  "_hinweis": "Betraege in USD, umgerechnet mit EUR/USD 1.1206 (Yahoo, 2026-11-09): budget = 100 EUR, max_loss_per_trade_usd = 5 EUR, max_daily_loss_usd = 10 EUR. SEC-User-Agent kommt aus der Umgebungsvariable SEC_USER_AGENT (.env), damit die E-Mail nicht im oeffentlichen Repo steht. Gebuehr pro Order: 1 EUR. Entry-Fenster aus (null): Swing-Trades statt Daytrading, Kauf zur US-Handelszeit in der App."
 }
