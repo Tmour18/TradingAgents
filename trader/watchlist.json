@@ -1,0 +1,38 @@
+{
+  "created_by": "trader-scanner",
+  "created_at": "2026-11-09T16:15:20Z",
+  "mode": "daily",
+  "as_of": "2026-11-06 close",
+  "universe": 10,
+  "scanned": 10,
+  "failed": 0,
+  "source": "yahoo",
+  "filters": {
+    "min_price": 5.0,
+    "min_volume": 0
+  },
+  "note": "A scan is a list of charts that match a rule, not a list of stocks to buy.",
+  "hits": [
+    {
+      "symbol": "NVDA",
+      "setups": [
+        "oversold_bounce"
+      ],
+      "price": 186.64,
+      "close_date": "2026-11-06",
+      "rsi": 30.6,
+      "volume": 227670088
+    },
+    {
+      "symbol": "INTC",
+      "setups": [
+        "oversold",
+        "oversold_bounce"
+      ],
+      "price": 56.28,
+      "close_date": "2026-11-06",
+      "rsi": 25.6,
+      "volume": 51571027
+    }
+  ]
+}

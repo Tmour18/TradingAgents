@@ -221,3 +221,8 @@ __marimo__/
 # Enterprise env file (secrets) and generated run reports
 .env.enterprise
 reports/
+
+# Kombi-Projekt: Cache und Sicherungskopien nicht hochladen
+daten/cache/
+trader/*.tmp
+trader/state/*.tmp
