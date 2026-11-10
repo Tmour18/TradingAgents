@@ -9,7 +9,7 @@ das Swing-System läuft parallel **nur auf Papier**.
 2. In den ersten **4 Wochen (bis ca. 07.12.2026)** kaufst du **nichts echt**, du schaust nur zu.
 3. Jeden **Sonntagabend** kommt eine Auswertung: Papier-System gegen MSCI-World-ETF.
 4. Echtes Geld erst, wenn das Papier-Journal den ETF schlägt. Der 2-Jahres-Backtest hat ihn **nicht** geschlagen (siehe Abschnitt 6).
-5. Fragen stellst du einfach in der Sitzung der jeweiligen Nachricht: "Wie sieht's aus?"
+5. Alles läuft in **einer** Claude-Sitzung ("Trading"-Sitzung, in der wir das eingerichtet haben). Dort erscheinen die Berichte, und dort fragst du: "Wie sieht's aus?"
 
 ## 2. Was automatisch passiert
 
@@ -85,7 +85,7 @@ Auf einem neuen Rechner: `./einrichten.sh` ausführen.
 
 ## 8. Wenn etwas nicht stimmt
 
-- **Benachrichtigungen ändern oder stoppen:** Claude sagen ("Stopp die tägliche Nachricht") oder in der Claude-App unter den geplanten Aufgaben.
+- **Benachrichtigungen ändern oder stoppen:** In der Trading-Sitzung Claude sagen, z. B. "Stopp die tägliche Nachricht" oder "Verschieb sie auf 15:30". Die geplanten Aufgaben erscheinen nicht in der Aufgabenliste der App, weil Claude sie über eine Schnittstelle angelegt hat.
 - **Daten fehlen oder sind veraltet:** Steht so im Bericht. Dann gibt es keine Empfehlung.
 - **Regeln ändern:** Erst als Backtest prüfen lassen, dann `trader/swing.json` anpassen.
 
