@@ -475,7 +475,9 @@ def cmd_plan(a):
                 continue
             entry = bars[i]["c"]
             stop, target = levels(cfg, entry, a14)
-            plan, reasons = size(cfg, entry, stop, target, cash)
+            # Ist das Positionslimit voll, mit vollem Budget rechnen: sonst meldet die Gebuehrenpruefung
+            # nur, dass das Restgeld zu klein ist. Abgelehnt wird dann ueber das Limit.
+            plan, reasons = size(cfg, entry, stop, target, cash if slots > 0 else cfg["budget_eur"])
             hist = history_check(cfg, bars, setup, fx)
             c = {"symbol": sym, "name": names.get(sym, ""), "setup": setup, "alle_setups": h["setups"],
                  "datum": bars[i]["d"].isoformat(), "einstieg": round(entry, 2), "stop": stop, "ziel": target,

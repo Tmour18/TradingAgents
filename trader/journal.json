@@ -8,7 +8,7 @@
       "name": "Microsoft Corporation - Common Stock",
       "setup": "reclaim_ma20",
       "empfohlen_am": "2026-11-09",
-      "status": "geplant",
+      "status": "offen",
       "plan": {
         "einstieg_ref": 545.18,
         "stop": 495.56,
@@ -16,7 +16,18 @@
         "betrag_eur": 87.0,
         "fx": 1.1226
       },
-      "notiz": "Testlauf 09.11. abends: Rueckeroberung 20-Tage-Schnitt, Stop 9 % entfernt, Historie 10 Trades 50 % Treffer (+12 EUR), Zahlen erst ca. Ende Jan., keine negativen News im Bericht. Abgelehnt: INTC/LITE/DELL/MRVL/SNDK Stop zu weit, CSCO Zahlen am 11.11."
+      "notiz": "Testlauf 09.11. abends: Rueckeroberung 20-Tage-Schnitt, Stop 9 % entfernt, Historie 10 Trades 50 % Treffer (+12 EUR), Zahlen erst ca. Ende Jan., keine negativen News im Bericht. Abgelehnt: INTC/LITE/DELL/MRVL/SNDK Stop zu weit, CSCO Zahlen am 11.11.",
+      "einstieg": {
+        "datum": "2026-11-10",
+        "kurs_usd": 542.98,
+        "fx": 1.1222
+      },
+      "zuletzt": {
+        "datum": "2026-11-10",
+        "kurs_usd": 533.16,
+        "tage": 1
+      },
+      "wert_eur_jetzt": 85.42
     }
   ]
 }
