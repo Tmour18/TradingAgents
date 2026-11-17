@@ -1,219 +1,39 @@
 {
-  "datum": "2026-11-16",
-  "fx": 1.1015641689300537,
+  "datum": "2026-11-17",
+  "fx": 1.098056435585022,
   "kandidaten": [],
   "abgelehnt": [
     {
-      "symbol": "AAPL",
-      "name": "Apple Inc. - Common Stock",
-      "setup": "breakout_20d",
-      "alle_setups": [
-        "breakout_20d"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 356.27,
-      "stop": 327.9,
-      "ziel": 413.01,
-      "atr": 9.46,
-      "historie": {
-        "n": 8,
-        "gewinner": 4,
-        "trefferquote": 0.5,
-        "ziel": 3,
-        "stop": 4,
-        "zeit": 1,
-        "summe_eur": 3.13,
-        "schnitt_eur": 0.39,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 60.8,
-      "betrag_eur": 100.0,
-      "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.07963058884699716,
-      "ziel_pct": 0.15926127020525077,
-      "verlust_am_stop_eur": 9.96,
-      "gewinn_am_ziel_eur": 13.93,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "schon 1 offene Positionen (Limit 1)"
-      ]
-    },
-    {
-      "symbol": "META",
-      "name": "Meta Platforms, Inc. - Class A Common Stock",
-      "setup": "reclaim_ma20",
-      "alle_setups": [
-        "reclaim_ma20"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 641.69,
-      "stop": 578.81,
-      "ziel": 767.45,
-      "atr": 20.96,
-      "historie": {
-        "n": 10,
-        "gewinner": 3,
-        "trefferquote": 0.3,
-        "ziel": 2,
-        "stop": 5,
-        "zeit": 3,
-        "summe_eur": -20.42,
-        "schnitt_eur": -2.04,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 47.7,
-      "betrag_eur": 81.0,
-      "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.097991245308747,
-      "ziel_pct": 0.19598247920354211,
-      "verlust_am_stop_eur": 9.94,
-      "gewinn_am_ziel_eur": 13.87,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "Historie: dieselbe Regel brachte bei META im Schnitt -2,04 EUR pro Trade (10 Trades)"
-      ]
-    },
-    {
-      "symbol": "CBRS",
-      "name": "Cerebras Systems Inc. - Class A Common Stock",
-      "setup": "reclaim_ma20",
-      "alle_setups": [
-        "reclaim_ma20"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 108.72,
-      "stop": 74.24,
-      "ziel": 177.68,
-      "atr": 11.5,
-      "historie": {
-        "n": 1,
-        "gewinner": 0,
-        "trefferquote": 0.0,
-        "ziel": 0,
-        "stop": 1,
-        "zeit": 0,
-        "summe_eur": -9.47,
-        "schnitt_eur": -9.47,
-        "von": "2026-05-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 44.3,
-      "betrag_eur": 25.0,
-      "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.3171449671961302,
-      "ziel_pct": 0.6342899007083997,
-      "verlust_am_stop_eur": 9.93,
-      "gewinn_am_ziel_eur": 13.86,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "schon 1 offene Positionen (Limit 1)"
-      ]
-    },
-    {
-      "symbol": "BRK.B",
-      "name": "Berkshire Hathaway Inc. New Common Stock",
-      "setup": "breakout_20d",
-      "alle_setups": [
-        "breakout_20d"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 592.94,
-      "stop": 558.88,
-      "ziel": 661.06,
-      "atr": 11.35,
-      "historie": {
-        "n": 10,
-        "gewinner": 4,
-        "trefferquote": 0.4,
-        "ziel": 3,
-        "stop": 6,
-        "zeit": 1,
-        "summe_eur": -25.0,
-        "schnitt_eur": -2.5,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 81.0,
-      "betrag_eur": 100.0,
-      "begrenzt_durch": "Positionsgrenze",
-      "stop_pct": 0.05744257817176373,
-      "ziel_pct": 0.11488514399114984,
-      "verlust_am_stop_eur": 7.74,
-      "gewinn_am_ziel_eur": 9.49,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "Historie: dieselbe Regel brachte bei BRK.B im Schnitt -2,50 EUR pro Trade (10 Trades)"
-      ]
-    },
-    {
       "symbol": "LLY",
       "name": "Eli Lilly and Company Common Stock",
-      "setup": "breakout_20d",
+      "setup": "bull_flag",
       "alle_setups": [
-        "breakout_20d"
+        "bull_flag"
       ],
-      "datum": "2026-11-13",
-      "einstieg": 1443.5,
-      "stop": 1290.41,
-      "ziel": 1749.68,
-      "atr": 51.03,
-      "historie": {
-        "n": 9,
-        "gewinner": 4,
-        "trefferquote": 0.4444444444444444,
-        "ziel": 4,
-        "stop": 3,
-        "zeit": 2,
-        "summe_eur": 8.09,
-        "schnitt_eur": 0.9,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 69.7,
-      "betrag_eur": 75.0,
-      "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.10605472809144435,
-      "ziel_pct": 0.21210945618288884,
-      "verlust_am_stop_eur": 9.95,
-      "gewinn_am_ziel_eur": 13.91,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "schon 1 offene Positionen (Limit 1)"
-      ]
-    },
-    {
-      "symbol": "KDP",
-      "name": "Keurig Dr Pepper Inc. - Common Stock",
-      "setup": "reclaim_ma20",
-      "alle_setups": [
-        "reclaim_ma20"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 36.34,
-      "stop": 32.21,
-      "ziel": 44.6,
-      "atr": 1.38,
+      "datum": "2026-11-16",
+      "einstieg": 1431.67,
+      "stop": 1273.92,
+      "ziel": 1747.17,
+      "atr": 52.58,
       "historie": {
         "n": 7,
-        "gewinner": 5,
-        "trefferquote": 0.7142857142857143,
+        "gewinner": 3,
+        "trefferquote": 0.42857142857142855,
         "ziel": 3,
-        "stop": 1,
-        "zeit": 3,
-        "summe_eur": 33.26,
-        "schnitt_eur": 4.75,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
+        "stop": 3,
+        "zeit": 1,
+        "summe_eur": 8.38,
+        "schnitt_eur": 1.2,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
       },
-      "rsi": 55.8,
-      "betrag_eur": 70.0,
+      "rsi": 66.8,
+      "betrag_eur": 72.0,
       "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.11364887548834474,
-      "ziel_pct": 0.22729773838000078,
-      "verlust_am_stop_eur": 9.96,
-      "gewinn_am_ziel_eur": 13.91,
+      "stop_pct": 0.11018603386475426,
+      "ziel_pct": 0.22037197564408853,
+      "verlust_am_stop_eur": 9.93,
+      "gewinn_am_ziel_eur": 13.87,
       "gebuehren_eur": 2.0,
       "gruende": [
         "schon 1 offene Positionen (Limit 1)"
@@ -226,11 +46,11 @@
       "alle_setups": [
         "breakout_20d"
       ],
-      "datum": "2026-11-13",
-      "einstieg": 1106.21,
-      "stop": 1041.49,
-      "ziel": 1235.65,
-      "atr": 21.57,
+      "datum": "2026-11-16",
+      "einstieg": 1113.74,
+      "stop": 1049.88,
+      "ziel": 1241.46,
+      "atr": 21.29,
       "historie": {
         "n": 9,
         "gewinner": 3,
@@ -240,226 +60,19 @@
         "zeit": 2,
         "summe_eur": -19.39,
         "schnitt_eur": -2.15,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
       },
-      "rsi": 75.9,
+      "rsi": 77.0,
       "betrag_eur": 100.0,
       "begrenzt_durch": "Positionsgrenze",
-      "stop_pct": 0.05850603702994193,
-      "ziel_pct": 0.11701217999592155,
-      "verlust_am_stop_eur": 7.85,
-      "gewinn_am_ziel_eur": 9.7,
+      "stop_pct": 0.05733832922793427,
+      "ziel_pct": 0.11467668476081898,
+      "verlust_am_stop_eur": 7.73,
+      "gewinn_am_ziel_eur": 9.47,
       "gebuehren_eur": 2.0,
       "gruende": [
         "Historie: dieselbe Regel brachte bei COST im Schnitt -2,15 EUR pro Trade (9 Trades)"
-      ]
-    },
-    {
-      "symbol": "SO",
-      "name": "Southern Company (The) Common Stock",
-      "setup": "reclaim_ma20",
-      "alle_setups": [
-        "reclaim_ma20"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 93.59,
-      "stop": 87.69,
-      "ziel": 105.39,
-      "atr": 1.97,
-      "historie": {
-        "n": 12,
-        "gewinner": 4,
-        "trefferquote": 0.3333333333333333,
-        "ziel": 4,
-        "stop": 7,
-        "zeit": 1,
-        "summe_eur": -32.91,
-        "schnitt_eur": -2.74,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 58.7,
-      "betrag_eur": 100.0,
-      "begrenzt_durch": "Positionsgrenze",
-      "stop_pct": 0.06304088651301687,
-      "ziel_pct": 0.1260818904138802,
-      "verlust_am_stop_eur": 8.3,
-      "gewinn_am_ziel_eur": 10.61,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "Historie: dieselbe Regel brachte bei SO im Schnitt -2,74 EUR pro Trade (12 Trades)"
-      ]
-    },
-    {
-      "symbol": "NU",
-      "name": "Nu Holdings Ltd. Class A Ordinary Shares",
-      "setup": "reclaim_ma20",
-      "alle_setups": [
-        "reclaim_ma20"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 13.22,
-      "stop": 11.57,
-      "ziel": 16.52,
-      "atr": 0.55,
-      "historie": {
-        "n": 9,
-        "gewinner": 4,
-        "trefferquote": 0.4444444444444444,
-        "ziel": 3,
-        "stop": 5,
-        "zeit": 1,
-        "summe_eur": -8.81,
-        "schnitt_eur": -0.98,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 51.9,
-      "betrag_eur": 64.0,
-      "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.1248109102648033,
-      "ziel_pct": 0.24962175993305522,
-      "verlust_am_stop_eur": 9.99,
-      "gewinn_am_ziel_eur": 13.98,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "Historie: dieselbe Regel brachte bei NU im Schnitt -0,98 EUR pro Trade (9 Trades)"
-      ]
-    },
-    {
-      "symbol": "JNJ",
-      "name": "Johnson & Johnson Common Stock",
-      "setup": "breakout_20d",
-      "alle_setups": [
-        "breakout_20d"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 285.75,
-      "stop": 264.36,
-      "ziel": 328.53,
-      "atr": 7.13,
-      "historie": {
-        "n": 11,
-        "gewinner": 6,
-        "trefferquote": 0.5454545454545454,
-        "ziel": 6,
-        "stop": 4,
-        "zeit": 1,
-        "summe_eur": 15.76,
-        "schnitt_eur": 1.43,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 65.7,
-      "betrag_eur": 100.0,
-      "begrenzt_durch": "Positionsgrenze",
-      "stop_pct": 0.07485564304461938,
-      "ziel_pct": 0.14971128608923875,
-      "verlust_am_stop_eur": 9.49,
-      "gewinn_am_ziel_eur": 12.97,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "schon 1 offene Positionen (Limit 1)"
-      ]
-    },
-    {
-      "symbol": "KO",
-      "name": "Coca-Cola Company (The) Common Stock",
-      "setup": "breakout_20d",
-      "alle_setups": [
-        "breakout_20d"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 99.25,
-      "stop": 93.6,
-      "ziel": 110.55,
-      "atr": 1.88,
-      "historie": {
-        "n": 10,
-        "gewinner": 5,
-        "trefferquote": 0.5,
-        "ziel": 4,
-        "stop": 3,
-        "zeit": 3,
-        "summe_eur": 8.57,
-        "schnitt_eur": 0.86,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 73.5,
-      "betrag_eur": 100.0,
-      "begrenzt_durch": "Positionsgrenze",
-      "stop_pct": 0.056926952141057995,
-      "ziel_pct": 0.11385390428211584,
-      "verlust_am_stop_eur": 7.69,
-      "gewinn_am_ziel_eur": 9.39,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "schon 1 offene Positionen (Limit 1)"
-      ]
-    },
-    {
-      "symbol": "APP",
-      "name": "Applovin Corporation - Class A Common Stock",
-      "setup": "bull_flag",
-      "alle_setups": [
-        "bull_flag"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 409.1,
-      "stop": 330.47,
-      "ziel": 566.36,
-      "atr": 26.21,
-      "historie": {
-        "n": 6,
-        "gewinner": 4,
-        "trefferquote": 0.6666666666666666,
-        "ziel": 3,
-        "stop": 2,
-        "zeit": 1,
-        "summe_eur": 25.58,
-        "schnitt_eur": 4.26,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 72.9,
-      "betrag_eur": 41.0,
-      "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.19220240755415596,
-      "ziel_pct": 0.38440477035019277,
-      "verlust_am_stop_eur": 9.88,
-      "gewinn_am_ziel_eur": 13.76,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "schon 1 offene Positionen (Limit 1)"
-      ]
-    },
-    {
-      "symbol": "MCD",
-      "name": "McDonald's Corporation Common Stock",
-      "setup": "bull_flag",
-      "alle_setups": [
-        "bull_flag"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 271.97,
-      "stop": 250.89,
-      "ziel": 314.13,
-      "atr": 7.03,
-      "historie": {
-        "n": 0
-      },
-      "rsi": 61.6,
-      "betrag_eur": 100.0,
-      "begrenzt_durch": "Positionsgrenze",
-      "stop_pct": 0.07750855287747989,
-      "ziel_pct": 0.1550170922898372,
-      "verlust_am_stop_eur": 9.75,
-      "gewinn_am_ziel_eur": 13.5,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "schon 1 offene Positionen (Limit 1)"
       ]
     },
     {
@@ -469,11 +82,11 @@
       "alle_setups": [
         "breakout_20d"
       ],
-      "datum": "2026-11-13",
-      "einstieg": 169.8,
-      "stop": 159.95,
-      "ziel": 189.5,
-      "atr": 3.29,
+      "datum": "2026-11-16",
+      "einstieg": 173.02,
+      "stop": 162.68,
+      "ziel": 193.7,
+      "atr": 3.45,
       "historie": {
         "n": 7,
         "gewinner": 3,
@@ -483,19 +96,190 @@
         "zeit": 1,
         "summe_eur": -11.36,
         "schnitt_eur": -1.62,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
       },
-      "rsi": 68.3,
+      "rsi": 72.3,
       "betrag_eur": 100.0,
       "begrenzt_durch": "Positionsgrenze",
-      "stop_pct": 0.05800943978048918,
-      "ziel_pct": 0.11601882564299665,
-      "verlust_am_stop_eur": 7.8,
-      "gewinn_am_ziel_eur": 9.6,
+      "stop_pct": 0.059761900457349124,
+      "ziel_pct": 0.1195237268343463,
+      "verlust_am_stop_eur": 7.98,
+      "gewinn_am_ziel_eur": 9.95,
       "gebuehren_eur": 2.0,
       "gruende": [
         "Historie: dieselbe Regel brachte bei PG im Schnitt -1,62 EUR pro Trade (7 Trades)"
+      ]
+    },
+    {
+      "symbol": "HD",
+      "name": "Home Depot, Inc. (The) Common Stock",
+      "setup": "bull_flag",
+      "alle_setups": [
+        "bull_flag"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 347.51,
+      "stop": 317.64,
+      "ziel": 407.25,
+      "atr": 9.96,
+      "historie": {
+        "n": 1,
+        "gewinner": 0,
+        "trefferquote": 0.0,
+        "ziel": 0,
+        "stop": 1,
+        "zeit": 0,
+        "summe_eur": -7.38,
+        "schnitt_eur": -7.38,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 62.8,
+      "betrag_eur": 93.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.08595438671182615,
+      "ziel_pct": 0.1719086891185267,
+      "verlust_am_stop_eur": 9.99,
+      "gewinn_am_ziel_eur": 13.99,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "schon 1 offene Positionen (Limit 1)"
+      ]
+    },
+    {
+      "symbol": "APP",
+      "name": "Applovin Corporation - Class A Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 415.22,
+      "stop": 334.99,
+      "ziel": 575.68,
+      "atr": 26.74,
+      "historie": {
+        "n": 12,
+        "gewinner": 4,
+        "trefferquote": 0.3333333333333333,
+        "ziel": 4,
+        "stop": 7,
+        "zeit": 1,
+        "summe_eur": -16.7,
+        "schnitt_eur": -1.39,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 73.7,
+      "betrag_eur": 41.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.19322287217579923,
+      "ziel_pct": 0.38644573553191397,
+      "verlust_am_stop_eur": 9.92,
+      "gewinn_am_ziel_eur": 13.84,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei APP im Schnitt -1,39 EUR pro Trade (12 Trades)"
+      ]
+    },
+    {
+      "symbol": "KO",
+      "name": "Coca-Cola Company (The) Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 99.48,
+      "stop": 93.97,
+      "ziel": 110.5,
+      "atr": 1.84,
+      "historie": {
+        "n": 10,
+        "gewinner": 5,
+        "trefferquote": 0.5,
+        "ziel": 4,
+        "stop": 3,
+        "zeit": 3,
+        "summe_eur": 8.57,
+        "schnitt_eur": 0.86,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 74.1,
+      "betrag_eur": 100.0,
+      "begrenzt_durch": "Positionsgrenze",
+      "stop_pct": 0.0553880495677482,
+      "ziel_pct": 0.11077599790107295,
+      "verlust_am_stop_eur": 7.54,
+      "gewinn_am_ziel_eur": 9.08,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "schon 1 offene Positionen (Limit 1)"
+      ]
+    },
+    {
+      "symbol": "UNH",
+      "name": "UnitedHealth Group Incorporated Common Stock (DE)",
+      "setup": "reclaim_ma20",
+      "alle_setups": [
+        "reclaim_ma20"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 412.02,
+      "stop": 379.08,
+      "ziel": 477.9,
+      "atr": 10.98,
+      "historie": {
+        "n": 11,
+        "gewinner": 5,
+        "trefferquote": 0.45454545454545453,
+        "ziel": 5,
+        "stop": 6,
+        "zeit": 0,
+        "summe_eur": -2.75,
+        "schnitt_eur": -0.25,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 58.5,
+      "betrag_eur": 100.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.07994755082763438,
+      "ziel_pct": 0.15989518164892247,
+      "verlust_am_stop_eur": 9.99,
+      "gewinn_am_ziel_eur": 13.99,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei UNH im Schnitt -0,25 EUR pro Trade (11 Trades)"
+      ]
+    },
+    {
+      "symbol": "MCD",
+      "name": "McDonald's Corporation Common Stock",
+      "setup": "bull_flag",
+      "alle_setups": [
+        "bull_flag"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 274.67,
+      "stop": 252.84,
+      "ziel": 318.33,
+      "atr": 7.28,
+      "historie": {
+        "n": 0
+      },
+      "rsi": 64.0,
+      "betrag_eur": 100.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.0794772358121934,
+      "ziel_pct": 0.15895432496402648,
+      "verlust_am_stop_eur": 9.95,
+      "gewinn_am_ziel_eur": 13.9,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "schon 1 offene Positionen (Limit 1)"
       ]
     },
     {
@@ -505,249 +289,69 @@
       "alle_setups": [
         "breakout_20d"
       ],
-      "datum": "2026-11-13",
-      "einstieg": 145.44,
-      "stop": 135.1,
-      "ziel": 166.12,
-      "atr": 3.45,
-      "historie": {
-        "n": 10,
-        "gewinner": 3,
-        "trefferquote": 0.3,
-        "ziel": 2,
-        "stop": 7,
-        "zeit": 1,
-        "summe_eur": -32.63,
-        "schnitt_eur": -3.26,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 66.3,
-      "betrag_eur": 100.0,
-      "begrenzt_durch": "Positionsgrenze",
-      "stop_pct": 0.07109462505387372,
-      "ziel_pct": 0.14218919974870842,
-      "verlust_am_stop_eur": 9.11,
-      "gewinn_am_ziel_eur": 12.22,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "Historie: dieselbe Regel brachte bei PEP im Schnitt -3,26 EUR pro Trade (10 Trades)"
-      ]
-    },
-    {
-      "symbol": "MOD",
-      "name": "Modine Manufacturing Company Common Stock",
-      "setup": "reclaim_ma20",
-      "alle_setups": [
-        "reclaim_ma20"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 135.66,
-      "stop": 97.14,
-      "ziel": 212.7,
-      "atr": 12.84,
-      "historie": {
-        "n": 10,
-        "gewinner": 4,
-        "trefferquote": 0.4,
-        "ziel": 3,
-        "stop": 6,
-        "zeit": 1,
-        "summe_eur": -14.62,
-        "schnitt_eur": -1.46,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 51.3,
-      "betrag_eur": 28.0,
-      "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.28394517633990185,
-      "ziel_pct": 0.5678902716955206,
-      "verlust_am_stop_eur": 9.95,
-      "gewinn_am_ziel_eur": 13.9,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "Historie: dieselbe Regel brachte bei MOD im Schnitt -1,46 EUR pro Trade (10 Trades)"
-      ]
-    },
-    {
-      "symbol": "REGN",
-      "name": "Regeneron Pharmaceuticals, Inc. - Common Stock",
-      "setup": "bull_flag",
-      "alle_setups": [
-        "bull_flag"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 955.47,
-      "stop": 840.5,
-      "ziel": 1185.41,
-      "atr": 38.32,
-      "historie": {
-        "n": 6,
-        "gewinner": 3,
-        "trefferquote": 0.5,
-        "ziel": 3,
-        "stop": 3,
-        "zeit": 0,
-        "summe_eur": 12.76,
-        "schnitt_eur": 2.13,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 68.3,
-      "betrag_eur": 66.0,
-      "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.12032818846051148,
-      "ziel_pct": 0.2406564689078229,
-      "verlust_am_stop_eur": 9.94,
-      "gewinn_am_ziel_eur": 13.88,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "schon 1 offene Positionen (Limit 1)"
-      ]
-    },
-    {
-      "symbol": "BAC",
-      "name": "Bank of America Corporation Common Stock",
-      "setup": "reclaim_ma20",
-      "alle_setups": [
-        "reclaim_ma20"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 51.02,
-      "stop": 47.52,
-      "ziel": 58.02,
-      "atr": 1.17,
-      "historie": {
-        "n": 9,
-        "gewinner": 3,
-        "trefferquote": 0.3333333333333333,
-        "ziel": 2,
-        "stop": 6,
-        "zeit": 1,
-        "summe_eur": -20.93,
-        "schnitt_eur": -2.33,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 45.6,
-      "betrag_eur": 100.0,
-      "begrenzt_durch": "Positionsgrenze",
-      "stop_pct": 0.06860055716112948,
-      "ziel_pct": 0.13720108740554013,
-      "verlust_am_stop_eur": 8.86,
-      "gewinn_am_ziel_eur": 11.72,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "Historie: dieselbe Regel brachte bei BAC im Schnitt -2,33 EUR pro Trade (9 Trades)"
-      ]
-    },
-    {
-      "symbol": "GE",
-      "name": "GE Aerospace Common Stock",
-      "setup": "bull_flag",
-      "alle_setups": [
-        "bull_flag"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 331.81,
-      "stop": 296.66,
-      "ziel": 402.11,
-      "atr": 11.72,
-      "historie": {
-        "n": 7,
-        "gewinner": 3,
-        "trefferquote": 0.42857142857142855,
-        "ziel": 2,
-        "stop": 4,
-        "zeit": 1,
-        "summe_eur": -12.8,
-        "schnitt_eur": -1.83,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
-      },
-      "rsi": 57.2,
-      "betrag_eur": 75.0,
-      "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.10593411234508282,
-      "ziel_pct": 0.21186824676369828,
-      "verlust_am_stop_eur": 9.95,
-      "gewinn_am_ziel_eur": 13.89,
-      "gebuehren_eur": 2.0,
-      "gruende": [
-        "Historie: dieselbe Regel brachte bei GE im Schnitt -1,83 EUR pro Trade (7 Trades)"
-      ]
-    },
-    {
-      "symbol": "ABBV",
-      "name": "AbbVie Inc. Common Stock",
-      "setup": "breakout_20d",
-      "alle_setups": [
-        "breakout_20d"
-      ],
-      "datum": "2026-11-13",
-      "einstieg": 295.03,
-      "stop": 272.76,
-      "ziel": 339.57,
-      "atr": 7.42,
+      "datum": "2026-11-16",
+      "einstieg": 146.43,
+      "stop": 136.12,
+      "ziel": 167.05,
+      "atr": 3.44,
       "historie": {
         "n": 11,
-        "gewinner": 6,
-        "trefferquote": 0.5454545454545454,
-        "ziel": 5,
-        "stop": 5,
+        "gewinner": 4,
+        "trefferquote": 0.36363636363636365,
+        "ziel": 3,
+        "stop": 7,
         "zeit": 1,
-        "summe_eur": 18.43,
-        "schnitt_eur": 1.68,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
+        "summe_eur": -19.61,
+        "schnitt_eur": -1.78,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
       },
-      "rsi": 62.8,
+      "rsi": 67.8,
       "betrag_eur": 100.0,
       "begrenzt_durch": "Positionsgrenze",
-      "stop_pct": 0.07548384527485426,
-      "ziel_pct": 0.15096770296237624,
-      "verlust_am_stop_eur": 9.55,
-      "gewinn_am_ziel_eur": 13.1,
+      "stop_pct": 0.07040902268300436,
+      "ziel_pct": 0.14081819542171706,
+      "verlust_am_stop_eur": 9.04,
+      "gewinn_am_ziel_eur": 12.08,
       "gebuehren_eur": 2.0,
       "gruende": [
-        "schon 1 offene Positionen (Limit 1)"
+        "Historie: dieselbe Regel brachte bei PEP im Schnitt -1,78 EUR pro Trade (11 Trades)"
       ]
     },
     {
-      "symbol": "XEL",
-      "name": "Xcel Energy Inc. - Common Stock",
+      "symbol": "SO",
+      "name": "Southern Company (The) Common Stock",
       "setup": "breakout_20d",
       "alle_setups": [
         "breakout_20d"
       ],
-      "datum": "2026-11-13",
-      "einstieg": 81.61,
-      "stop": 76.9,
-      "ziel": 91.03,
-      "atr": 1.57,
+      "datum": "2026-11-16",
+      "einstieg": 94.64,
+      "stop": 88.57,
+      "ziel": 106.78,
+      "atr": 2.02,
       "historie": {
-        "n": 8,
-        "gewinner": 2,
-        "trefferquote": 0.25,
-        "ziel": 2,
-        "stop": 5,
-        "zeit": 1,
-        "summe_eur": -39.04,
-        "schnitt_eur": -4.88,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
+        "n": 9,
+        "gewinner": 4,
+        "trefferquote": 0.4444444444444444,
+        "ziel": 4,
+        "stop": 3,
+        "zeit": 2,
+        "summe_eur": -6.91,
+        "schnitt_eur": -0.77,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
       },
-      "rsi": 68.8,
+      "rsi": 62.3,
       "betrag_eur": 100.0,
       "begrenzt_durch": "Positionsgrenze",
-      "stop_pct": 0.05771352254780074,
-      "ziel_pct": 0.1154270226589557,
-      "verlust_am_stop_eur": 7.77,
-      "gewinn_am_ziel_eur": 9.54,
+      "stop_pct": 0.06413777925607606,
+      "ziel_pct": 0.12827557785972912,
+      "verlust_am_stop_eur": 8.41,
+      "gewinn_am_ziel_eur": 10.83,
       "gebuehren_eur": 2.0,
       "gruende": [
-        "Historie: dieselbe Regel brachte bei XEL im Schnitt -4,88 EUR pro Trade (8 Trades)"
+        "Historie: dieselbe Regel brachte bei SO im Schnitt -0,77 EUR pro Trade (9 Trades)"
       ]
     },
     {
@@ -757,11 +361,11 @@
       "alle_setups": [
         "bull_flag"
       ],
-      "datum": "2026-11-13",
-      "einstieg": 186.78,
-      "stop": 163.82,
-      "ziel": 232.7,
-      "atr": 7.65,
+      "datum": "2026-11-16",
+      "einstieg": 186.19,
+      "stop": 162.33,
+      "ziel": 233.91,
+      "atr": 7.95,
       "historie": {
         "n": 7,
         "gewinner": 3,
@@ -771,92 +375,91 @@
         "zeit": 2,
         "summe_eur": 2.27,
         "schnitt_eur": 0.32,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
       },
-      "rsi": 60.7,
-      "betrag_eur": 65.0,
+      "rsi": 60.2,
+      "betrag_eur": 62.0,
       "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.12292536100948846,
-      "ziel_pct": 0.245850741625516,
-      "verlust_am_stop_eur": 9.99,
-      "gewinn_am_ziel_eur": 13.98,
+      "stop_pct": 0.12814867677395808,
+      "ziel_pct": 0.25629731421057994,
+      "verlust_am_stop_eur": 9.95,
+      "gewinn_am_ziel_eur": 13.89,
       "gebuehren_eur": 2.0,
       "gruende": [
         "schon 1 offene Positionen (Limit 1)"
       ]
     },
     {
-      "symbol": "NOW",
-      "name": "ServiceNow, Inc. Common Stock",
-      "setup": "oversold_bounce",
+      "symbol": "ELV",
+      "name": "Elevance Health, Inc. Common Stock",
+      "setup": "breakout_20d",
       "alle_setups": [
-        "oversold_bounce"
+        "breakout_20d"
       ],
-      "datum": "2026-11-13",
-      "einstieg": 102.25,
-      "stop": 79.95,
-      "ziel": 146.85,
-      "atr": 7.43,
+      "datum": "2026-11-16",
+      "einstieg": 446.28,
+      "stop": 405.92,
+      "ziel": 527.0,
+      "atr": 13.45,
       "historie": {
-        "n": 10,
-        "gewinner": 2,
-        "trefferquote": 0.2,
+        "n": 9,
+        "gewinner": 3,
+        "trefferquote": 0.3333333333333333,
         "ziel": 2,
-        "stop": 7,
-        "zeit": 1,
-        "summe_eur": -43.84,
-        "schnitt_eur": -4.38,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
+        "stop": 3,
+        "zeit": 4,
+        "summe_eur": -11.68,
+        "schnitt_eur": -1.3,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
       },
-      "rsi": 32.0,
-      "betrag_eur": 36.0,
+      "rsi": 63.8,
+      "betrag_eur": 88.0,
       "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.2180929095354523,
-      "ziel_pct": 0.4361858190709046,
-      "verlust_am_stop_eur": 9.85,
-      "gewinn_am_ziel_eur": 13.7,
+      "stop_pct": 0.0904364947783745,
+      "ziel_pct": 0.180872997762605,
+      "verlust_am_stop_eur": 9.96,
+      "gewinn_am_ziel_eur": 13.92,
       "gebuehren_eur": 2.0,
       "gruende": [
-        "Historie: dieselbe Regel brachte bei NOW im Schnitt -4,38 EUR pro Trade (10 Trades)"
+        "Historie: dieselbe Regel brachte bei ELV im Schnitt -1,30 EUR pro Trade (9 Trades)"
       ]
     },
     {
-      "symbol": "FCUV",
-      "name": "Focus Universal Inc. - Common Stock",
+      "symbol": "CL",
+      "name": "Colgate-Palmolive Company Common Stock",
       "setup": "breakout_20d",
       "alle_setups": [
-        "breakout_20d",
-        "reclaim_ma20"
+        "breakout_20d"
       ],
-      "datum": "2026-11-13",
-      "einstieg": 7.08,
-      "stop": 5.28,
-      "ziel": 10.68,
-      "atr": 0.6,
+      "datum": "2026-11-16",
+      "einstieg": 100.99,
+      "stop": 93.88,
+      "ziel": 115.21,
+      "atr": 2.37,
       "historie": {
         "n": 8,
         "gewinner": 3,
         "trefferquote": 0.375,
-        "ziel": 3,
-        "stop": 5,
-        "zeit": 0,
-        "summe_eur": -6.21,
-        "schnitt_eur": -0.78,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
+        "ziel": 2,
+        "stop": 4,
+        "zeit": 2,
+        "summe_eur": -15.58,
+        "schnitt_eur": -1.95,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
       },
-      "rsi": 77.1,
-      "betrag_eur": 31.0,
-      "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.2542372800992683,
-      "ziel_pct": 0.5084745925264799,
-      "verlust_am_stop_eur": 9.88,
-      "gewinn_am_ziel_eur": 13.76,
+      "rsi": 68.0,
+      "betrag_eur": 100.0,
+      "begrenzt_durch": "Positionsgrenze",
+      "stop_pct": 0.07040299053536538,
+      "ziel_pct": 0.14080604452940515,
+      "verlust_am_stop_eur": 9.04,
+      "gewinn_am_ziel_eur": 12.08,
       "gebuehren_eur": 2.0,
       "gruende": [
-        "Historie: dieselbe Regel brachte bei FCUV im Schnitt -0,78 EUR pro Trade (8 Trades)"
+        "Historie: dieselbe Regel brachte bei CL im Schnitt -1,95 EUR pro Trade (8 Trades)"
       ]
     },
     {
@@ -866,11 +469,11 @@
       "alle_setups": [
         "bull_flag"
       ],
-      "datum": "2026-11-13",
-      "einstieg": 227.73,
-      "stop": 206.59,
-      "ziel": 270.01,
-      "atr": 7.05,
+      "datum": "2026-11-16",
+      "einstieg": 224.93,
+      "stop": 203.48,
+      "ziel": 267.83,
+      "atr": 7.15,
       "historie": {
         "n": 3,
         "gewinner": 1,
@@ -880,19 +483,417 @@
         "zeit": 0,
         "summe_eur": -7.58,
         "schnitt_eur": -2.53,
-        "von": "2024-11-14",
-        "bis": "2026-11-13"
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
       },
-      "rsi": 66.4,
-      "betrag_eur": 86.0,
+      "rsi": 62.6,
+      "betrag_eur": 83.0,
       "begrenzt_durch": "Max-Verlust",
-      "stop_pct": 0.09282921057457619,
-      "ziel_pct": 0.1856584774323959,
-      "verlust_am_stop_eur": 9.98,
-      "gewinn_am_ziel_eur": 13.97,
+      "stop_pct": 0.09536297236580506,
+      "ziel_pct": 0.19072604241825453,
+      "verlust_am_stop_eur": 9.92,
+      "gewinn_am_ziel_eur": 13.83,
       "gebuehren_eur": 2.0,
       "gruende": [
         "Historie: dieselbe Regel brachte bei LOW im Schnitt -2,53 EUR pro Trade (3 Trades)"
+      ]
+    },
+    {
+      "symbol": "CGON",
+      "name": "CG Oncology, Inc. - Common stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 84.78,
+      "stop": 66.47,
+      "ziel": 121.4,
+      "atr": 6.1,
+      "historie": {
+        "n": 9,
+        "gewinner": 5,
+        "trefferquote": 0.5555555555555556,
+        "ziel": 3,
+        "stop": 4,
+        "zeit": 2,
+        "summe_eur": 22.58,
+        "schnitt_eur": 2.51,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 71.5,
+      "betrag_eur": 37.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.215970736529052,
+      "ziel_pct": 0.4319415162535443,
+      "verlust_am_stop_eur": 9.99,
+      "gewinn_am_ziel_eur": 13.98,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "schon 1 offene Positionen (Limit 1)"
+      ]
+    },
+    {
+      "symbol": "ADP",
+      "name": "Automatic Data Processing, Inc. - Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 313.43,
+      "stop": 290.93,
+      "ziel": 358.43,
+      "atr": 7.5,
+      "historie": {
+        "n": 6,
+        "gewinner": 2,
+        "trefferquote": 0.3333333333333333,
+        "ziel": 2,
+        "stop": 3,
+        "zeit": 1,
+        "summe_eur": -1.12,
+        "schnitt_eur": -0.19,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 69.0,
+      "betrag_eur": 100.0,
+      "begrenzt_durch": "Positionsgrenze",
+      "stop_pct": 0.07178634209092977,
+      "ziel_pct": 0.1435727542857321,
+      "verlust_am_stop_eur": 9.18,
+      "gewinn_am_ziel_eur": 12.36,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei ADP im Schnitt -0,19 EUR pro Trade (6 Trades)"
+      ]
+    },
+    {
+      "symbol": "TGT",
+      "name": "Target Corporation Common Stock",
+      "setup": "bull_flag",
+      "alle_setups": [
+        "bull_flag"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 160.32,
+      "stop": 143.92,
+      "ziel": 193.12,
+      "atr": 5.47,
+      "historie": {
+        "n": 5,
+        "gewinner": 3,
+        "trefferquote": 0.6,
+        "ziel": 2,
+        "stop": 2,
+        "zeit": 1,
+        "summe_eur": 8.93,
+        "schnitt_eur": 1.79,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 54.0,
+      "betrag_eur": 78.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.10229545019326665,
+      "ziel_pct": 0.20459076333154785,
+      "verlust_am_stop_eur": 9.98,
+      "gewinn_am_ziel_eur": 13.96,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "schon 1 offene Positionen (Limit 1)"
+      ]
+    },
+    {
+      "symbol": "CMCSA",
+      "name": "Comcast Corporation - Class A Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d",
+        "bull_flag"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 25.6,
+      "stop": 23.32,
+      "ziel": 30.16,
+      "atr": 0.76,
+      "historie": {
+        "n": 7,
+        "gewinner": 1,
+        "trefferquote": 0.14285714285714285,
+        "ziel": 1,
+        "stop": 6,
+        "zeit": 0,
+        "summe_eur": -45.49,
+        "schnitt_eur": -6.5,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 69.3,
+      "betrag_eur": 89.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.08906251357402631,
+      "ziel_pct": 0.17812498244456973,
+      "verlust_am_stop_eur": 9.93,
+      "gewinn_am_ziel_eur": 13.85,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei CMCSA im Schnitt -6,50 EUR pro Trade (7 Trades)"
+      ]
+    },
+    {
+      "symbol": "DUK",
+      "name": "Duke Energy Corporation (Holding Company) Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 130.59,
+      "stop": 123.56,
+      "ziel": 144.65,
+      "atr": 2.34,
+      "historie": {
+        "n": 9,
+        "gewinner": 4,
+        "trefferquote": 0.4444444444444444,
+        "ziel": 3,
+        "stop": 3,
+        "zeit": 3,
+        "summe_eur": -14.1,
+        "schnitt_eur": -1.57,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 67.7,
+      "betrag_eur": 100.0,
+      "begrenzt_durch": "Positionsgrenze",
+      "stop_pct": 0.053832579332501844,
+      "ziel_pct": 0.10766524279340896,
+      "verlust_am_stop_eur": 7.38,
+      "gewinn_am_ziel_eur": 8.77,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei DUK im Schnitt -1,57 EUR pro Trade (9 Trades)"
+      ]
+    },
+    {
+      "symbol": "TMUS",
+      "name": "T-Mobile US, Inc. - Common Stock",
+      "setup": "bull_flag",
+      "alle_setups": [
+        "bull_flag"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 170.01,
+      "stop": 152.07,
+      "ziel": 205.89,
+      "atr": 5.98,
+      "historie": {
+        "n": 3,
+        "gewinner": 0,
+        "trefferquote": 0.0,
+        "ziel": 0,
+        "stop": 3,
+        "zeit": 0,
+        "summe_eur": -38.26,
+        "schnitt_eur": -12.75,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 59.6,
+      "betrag_eur": 75.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.10552317561609352,
+      "ziel_pct": 0.21104644816467746,
+      "verlust_am_stop_eur": 9.91,
+      "gewinn_am_ziel_eur": 13.83,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei TMUS im Schnitt -12,75 EUR pro Trade (3 Trades)"
+      ]
+    },
+    {
+      "symbol": "UPS",
+      "name": "United Parcel Service, Inc. Common Stock",
+      "setup": "bull_flag",
+      "alle_setups": [
+        "bull_flag"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 111.82,
+      "stop": 103.91,
+      "ziel": 127.64,
+      "atr": 2.64,
+      "historie": {
+        "n": 4,
+        "gewinner": 1,
+        "trefferquote": 0.25,
+        "ziel": 1,
+        "stop": 2,
+        "zeit": 1,
+        "summe_eur": -11.24,
+        "schnitt_eur": -2.81,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 63.4,
+      "betrag_eur": 100.0,
+      "begrenzt_durch": "Positionsgrenze",
+      "stop_pct": 0.07073868463970627,
+      "ziel_pct": 0.1414773774669223,
+      "verlust_am_stop_eur": 9.07,
+      "gewinn_am_ziel_eur": 12.15,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei UPS im Schnitt -2,81 EUR pro Trade (4 Trades)"
+      ]
+    },
+    {
+      "symbol": "HUM",
+      "name": "Humana Inc. Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 461.25,
+      "stop": 407.92,
+      "ziel": 567.91,
+      "atr": 17.78,
+      "historie": {
+        "n": 10,
+        "gewinner": 4,
+        "trefferquote": 0.4,
+        "ziel": 3,
+        "stop": 5,
+        "zeit": 2,
+        "summe_eur": -13.68,
+        "schnitt_eur": -1.37,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 68.3,
+      "betrag_eur": 69.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.11562059620596203,
+      "ziel_pct": 0.23124119241192406,
+      "verlust_am_stop_eur": 9.98,
+      "gewinn_am_ziel_eur": 13.96,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei HUM im Schnitt -1,37 EUR pro Trade (10 Trades)"
+      ]
+    },
+    {
+      "symbol": "TSCO",
+      "name": "Tractor Supply Company - Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d",
+        "bull_flag"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 37.95,
+      "stop": 33.63,
+      "ziel": 46.59,
+      "atr": 1.44,
+      "historie": {
+        "n": 7,
+        "gewinner": 2,
+        "trefferquote": 0.2857142857142857,
+        "ziel": 1,
+        "stop": 5,
+        "zeit": 1,
+        "summe_eur": -43.78,
+        "schnitt_eur": -6.25,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 67.0,
+      "betrag_eur": 70.0,
+      "begrenzt_durch": "Max-Verlust",
+      "stop_pct": 0.1138340099101711,
+      "ziel_pct": 0.22766795950892443,
+      "verlust_am_stop_eur": 9.97,
+      "gewinn_am_ziel_eur": 13.94,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei TSCO im Schnitt -6,25 EUR pro Trade (7 Trades)"
+      ]
+    },
+    {
+      "symbol": "CB",
+      "name": "Chubb Limited Common Stock",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 381.28,
+      "stop": 360.21,
+      "ziel": 423.42,
+      "atr": 7.02,
+      "historie": {
+        "n": 9,
+        "gewinner": 4,
+        "trefferquote": 0.4444444444444444,
+        "ziel": 3,
+        "stop": 4,
+        "zeit": 2,
+        "summe_eur": -17.68,
+        "schnitt_eur": -1.96,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 70.3,
+      "betrag_eur": 100.0,
+      "begrenzt_durch": "Positionsgrenze",
+      "stop_pct": 0.05526122232153389,
+      "ziel_pct": 0.11052245424784475,
+      "verlust_am_stop_eur": 7.53,
+      "gewinn_am_ziel_eur": 9.05,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "Historie: dieselbe Regel brachte bei CB im Schnitt -1,96 EUR pro Trade (9 Trades)"
+      ]
+    },
+    {
+      "symbol": "MO",
+      "name": "Altria Group, Inc.",
+      "setup": "breakout_20d",
+      "alle_setups": [
+        "breakout_20d"
+      ],
+      "datum": "2026-11-16",
+      "einstieg": 78.9,
+      "stop": 73.4,
+      "ziel": 89.9,
+      "atr": 1.83,
+      "historie": {
+        "n": 8,
+        "gewinner": 5,
+        "trefferquote": 0.625,
+        "ziel": 4,
+        "stop": 3,
+        "zeit": 1,
+        "summe_eur": 5.69,
+        "schnitt_eur": 0.71,
+        "von": "2024-11-18",
+        "bis": "2026-11-16"
+      },
+      "rsi": 66.9,
+      "betrag_eur": 100.0,
+      "begrenzt_durch": "Positionsgrenze",
+      "stop_pct": 0.06970850975300578,
+      "ziel_pct": 0.13941696148780353,
+      "verlust_am_stop_eur": 8.97,
+      "gewinn_am_ziel_eur": 11.94,
+      "gebuehren_eur": 2.0,
+      "gruende": [
+        "schon 1 offene Positionen (Limit 1)"
       ]
     }
   ]
