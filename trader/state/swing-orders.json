@@ -1,15 +1,15 @@
 [
   {
-    "symbol": "RKLB",
+    "symbol": "BDX",
     "side": "buy",
-    "notional": "37.05",
+    "notional": "99.55",
     "type": "market",
     "time_in_force": "day",
     "plan": {
-      "entry": 58.86,
-      "stop": 44.98,
-      "target": 86.62,
-      "setup": "reclaim_ma20"
+      "entry": 212.78,
+      "stop": 197.07,
+      "target": 244.2,
+      "setup": "bull_flag"
     }
   }
 ]
