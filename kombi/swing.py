@@ -600,7 +600,7 @@ def cmd_journal(a):
             return 1
         j["start"] = j.get("start") or last["datum"]
         j["trades"].append({"id": "%s-%s" % (last["datum"], c["symbol"]), "symbol": c["symbol"], "name": c["name"],
-                            "setup": c["setup"], "empfohlen_am": last["datum"], "status": "geplant",
+                            "setup": c["setup"], "empfohlen_am": c.get("datum") or last["datum"], "status": "geplant",
                             "plan": {"einstieg_ref": c["einstieg"], "stop": c["stop"], "ziel": c["ziel"],
                                      "betrag_eur": c["betrag_eur"], "fx": round(last["fx"], 4)},
                             "notiz": a.notiz or ""})

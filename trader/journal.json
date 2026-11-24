@@ -41,8 +41,8 @@
       "symbol": "BDX",
       "name": "Becton, Dickinson and Company Common Stock",
       "setup": "bull_flag",
-      "empfohlen_am": "2026-11-23",
-      "status": "geplant",
+      "empfohlen_am": "2026-11-20",
+      "status": "offen",
       "plan": {
         "einstieg_ref": 212.78,
         "stop": 197.07,
@@ -50,7 +50,18 @@
         "betrag_eur": 91.0,
         "fx": 1.094
       },
-      "notiz": "Bull-Flag; Historie 4 Trades (2 Ziel, 2 Stop, +2,93 EUR/Trade); Stop 7,4 % weg; Quartalszahlen erst ca. Anfang Feb.; keine negativen News. BIPC verworfen (unklares 'Key Event', keine SEC-Daten zum Termin), CAH nur 3 Trades Historie, UNH Stop 14 % weg."
+      "notiz": "Bull-Flag; Historie 4 Trades (2 Ziel, 2 Stop, +2,93 EUR/Trade); Stop 7,4 % weg; Quartalszahlen erst ca. Anfang Feb.; keine negativen News. BIPC verworfen (unklares 'Key Event', keine SEC-Daten zum Termin), CAH nur 3 Trades Historie, UNH Stop 14 % weg. [Korrektur 24.11.: Signal-Datum = Schlusskurs 20.11., Papier-Kauf zur Eroeffnung 23.11.]",
+      "einstieg": {
+        "datum": "2026-11-23",
+        "kurs_usd": 213.18,
+        "fx": 1.0972
+      },
+      "zuletzt": {
+        "datum": "2026-11-23",
+        "kurs_usd": 215.44,
+        "tage": 1
+      },
+      "wert_eur_jetzt": 91.97
     }
   ]
 }
