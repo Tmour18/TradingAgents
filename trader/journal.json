@@ -57,11 +57,11 @@
         "fx": 1.0972
       },
       "zuletzt": {
-        "datum": "2026-11-23",
-        "kurs_usd": 215.44,
-        "tage": 1
+        "datum": "2026-11-24",
+        "kurs_usd": 220.0,
+        "tage": 2
       },
-      "wert_eur_jetzt": 91.97
+      "wert_eur_jetzt": 94.46
     }
   ]
 }
